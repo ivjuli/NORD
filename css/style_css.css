@@ -82,14 +82,22 @@ background-color: burlywood
     background-color: fuchsia     
     }
 
+
+.footer {
+        background: url(img/Rectangle_footer.png);    
+    }
 .about {
         background-color: khaki      
     }
 
-.footer {
-        background-color: sienna    
-    }
 
+
+.map {
+        width: 100%;
+        height: 35%;
+        background: rgba (0, 0, 0, 0.4);
+        background: url(img/map.png);
+        }
 
 .rectangle 
 /* Rectangle */
@@ -276,4 +284,5 @@ font-size: 18px;
 letter-spacing: 0.1em;
 
 color: #FFFFFF;
+
 
