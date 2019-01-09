@@ -3,10 +3,10 @@
     src: url(fonts/Ubuntu.ttf);
 }
 
-
 .wrapper {
+    font-family: Ubuntu;
     width: 100%;
-    height: 1000px;
+    height: 500px;
     position: absolute;
     top: 0;
     left: 0;
@@ -17,6 +17,7 @@
 
 .contacts {
     display: flex;
+    justify-content: 
     color: black;
     background-color: aqua
 
