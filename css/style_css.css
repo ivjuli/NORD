@@ -4,6 +4,8 @@
 }
 
 .wrapper {
+    display: flex;
+
     width: 100%;
     height: 1000px;
     position: absolute;
@@ -16,44 +18,65 @@
 
 .contacts {
     display: flex;
+    width: 100%;
     color: black;
     background-color: aqua
 
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     background-color: blue
 }
 
 .menu {
- background-color: blueviolet
+    display: flex;
+    background-color: blueviolet
 }
 
 .education {
-background-color: green
+    display: flex;
+    background-color: green
 }
 
 .education2 {
+    display: flex;
 background-color: yellow
 }
 
+.education2_0{
+    display: flex;
+}
 .education2_1 {
+
     background-color: greenyellow
     }
 
 .education2_2 {
-        background-color: darkorange
+    background-color: darkorange
     }
 .education2_3 {
-        background-color: cornflowerblue
+    background-color: cornflowerblue
     }    
+
 .education3 {
-background-color: burlywood     
+background-color: burlywood  
+}
+
+.kub3_1 {
+    text-align: center;
 }
 
 .education4 {
     background-color: fuchsia     
     }
+
+.slaider-text {
+text-align: center;
+}
+
+}
 
 .about {
         background-color: khaki      
