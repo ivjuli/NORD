@@ -96,6 +96,8 @@ background-color: burlywood
 .fon_slaider {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: fuchsia; 
 
 }
@@ -105,8 +107,8 @@ background-color: burlywood
 
 .slaider {
     display: flex;
-    flex-wrap: wrap;
-}
+    }
+
 .slaider-text {
     width: 690px;
     height: 125px;
@@ -118,6 +120,7 @@ background-color: burlywood
 .about {
         background-color: khaki ;   
             display: flex;
+            flex-direction: column;
             justify-content: space-around;  
 }
 
