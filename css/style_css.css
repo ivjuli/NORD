@@ -152,23 +152,61 @@ background-color: burlywood
 
 .about1 {
     display: flex;
+    align-items: center;
+    height: 90px;
 
+}
+.about2 {
+    display: flex;
+    height: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.ikonki {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
 }
 .text_about {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
+.text_about2 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: white;
+
+}
+
+.about3 {
+    height: 90px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .about_footer {
     width: 100%;
     max-width: 1510px;
     margin: 0 auto;
 }
-img {
+img.m {
     width: 100%; 
     height: auto; 
   }
-.logo_about {
+logo_about {
     width: 75px;
     height: 75px;
     background-image: url(../img/mark3_white.png);
@@ -205,10 +243,6 @@ color: white;
     z-index: -1;
 }
 
-img {
-    width: 100%; 
-    height: auto; 
-  }
 
 .logo_footer {
 font-family: Puritan;
