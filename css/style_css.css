@@ -1,11 +1,9 @@
 @font-face {
     font-family: Ubuntu;
-    src: url(fonts/Ubuntu.ttf);
+    src: url(../fonts/Ubuntu.ttf);
 }
 
 .wrapper {
-    display:
-
     width: 100%;
     height: 1000px;
     position: absolute;
@@ -32,6 +30,10 @@
 .menu {
     display: flex;
     background-color: blueviolet
+}
+
+.hill{
+    border: 
 }
 
 .education {
@@ -62,7 +64,24 @@
 }
 
 .edu_center{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo2 {
+    width: 130px;
+    height: 117px;
+    background-image: url(../img/mark5_white.png)
+}
+
+.logo2_2 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    color: white;
 }
 .education2_0 {
     display: flex;
@@ -93,6 +112,8 @@ background-color: burlywood
     background-color: #432132;
 }
 
+
+
 .fon_slaider {
     display: flex;
     justify-content: center;
@@ -116,14 +137,98 @@ background-color: burlywood
     background-color: blueviolet;
 
 }
+.container_about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
 
+}
 .about {
         background-color: khaki ;   
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;  
+        display: flex;
+        justify-content: space-around;  
 }
 
+.about1 {
+    display: flex;
+
+}
+.text_about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_footer {
+    width: 100%;
+    max-width: 1510px;
+    margin: 0 auto;
+}
+img {
+    width: 100%; 
+    height: auto; 
+  }
+.logo_about {
+    width: 75px;
+    height: 75px;
+    background-image: url(../img/mark3_white.png);
+}
+
+.logo_text_about {
+    font-family: Puritan;
+    src: url(../fonts/Puritan.ttf);
+font-style: normal;
+font-weight: normal;
+line-height: 64px;
+font-size: 48px;
+letter-spacing: 0.1em;
+color: white;
+}
+.logo_text_about2 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: 25px;
+font-size: 18px;
+color: white;
+}
 .footer {
-        background-color: sienna    
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+     
+}
+
+.map {
+    width: 100%;
+    max-width: 1510px;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+  }
+
+.logo_footer {
+font-family: Puritan;
+src: url(../fonts/Puritan.ttf);
+font-style: normal;
+font-weight: normal;
+line-height: 32px;
+font-size: 24px;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+tr {
+position: absolute;
+width: 57px;
+height: 68px;
+left: 410px;
+bottom: 140px;
+
+background: #112132;
+transform: rotate(-180deg);
 }
