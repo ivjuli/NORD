@@ -16,24 +16,53 @@
 
 .contacts {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     color: black;
-    background-color: aqua
+    background-color: white;
+    font-family: Ubuntu;
+    font-style: normal;
+    line-height: normal;
+    font-size: 24px;
 
 }
 
+.contacts_text {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
 .logo {
     display: flex;
-    background-color: blue;
+    align-items: center;
+    background-color: white;
+}
+
+.logo_logo {
+    font-family: Puritan;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    color: black;
 }
 
 .menu {
     display: flex;
-    background-color: blueviolet
+    background-color:white;
 }
 
-.hill{
-    border: 
+.menu_tab {
+    display: table;
+    width: 50%;
+}
+
+.it {
+    display: table-cell;
+    text-align: center;
 }
 
 .education {
