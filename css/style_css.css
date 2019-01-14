@@ -51,6 +51,13 @@
     background-color: #BA9898;
     transform matrix(0.71, 0.67, -0.74, 0.71, 0,0)
 }
+
+.button {
+    border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .kub2-fon {
     height: 206.36px;
     width: 206.36px;
@@ -69,12 +76,6 @@
     align-items: center;
 }
 
-.logo2 {
-    width: 130px;
-    height: 117px;
-    background-image: url(../img/mark5_white.png)
-}
-
 .logo2_2 {
     font-family: Ubuntu;
     font-style: normal;
@@ -89,15 +90,21 @@
 }
 
 .education2_1 {
-    background-color: greenyellow
+    background: rgba(0, 0, 0, 0.4);
 }
 
+.rombik {
+    width: 11px;
+    height: 11px;
+    background: #FFFFFF;
+transform: matrix(0.71, 0.68, -0.74, 0.71, 0, 0);
+}
 .education2_2 {
-    background-color: darkorange
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .education2_3 {
-    background-color: cornflowerblue
+    background: rgba(0, 0, 0, 0.4);
 }    
 
 .education3 {
@@ -145,9 +152,10 @@ background-color: burlywood
 
 }
 .about {
-        background-color: khaki ;   
-        display: flex;
-        justify-content: space-around;  
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%; 
 }
 
 .about1 {
@@ -198,6 +206,7 @@ color: white;
     justify-content: space-between;
 }
 .about_footer {
+    position: relative;
     width: 100%;
     max-width: 1510px;
     margin: 0 auto;
@@ -206,11 +215,6 @@ img.m {
     width: 100%; 
     height: auto; 
   }
-logo_about {
-    width: 75px;
-    height: 75px;
-    background-image: url(../img/mark3_white.png);
-}
 
 .logo_text_about {
     font-family: Puritan;
@@ -233,7 +237,7 @@ color: white;
 .footer {
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
-     
+    position: relative;
 }
 
 .map {
@@ -241,6 +245,8 @@ color: white;
     max-width: 1510px;
     margin: 0 auto;
     z-index: -1;
+    position: absolute;
+
 }
 
 
