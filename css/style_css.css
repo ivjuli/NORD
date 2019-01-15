@@ -36,7 +36,7 @@
     width: 30%;
     align-items: center;
     justify-content: space-between;
-    margin-right: 100px;
+    
 }
 
 .logo {
@@ -92,7 +92,7 @@
     height: 480px;
     width: 480px;
     background-color: #BA9898;
-    transform: matrix(0.71, 0.67, -0.74, 0.71, 0, 0);
+    transform: rotate(45deg);
     margin-left: 325px;
     margin-top: 150px;
 }
@@ -110,19 +110,84 @@
     left: -2px;
     background: white;
 }
+.kub1_bordo_text {
+    transform: rotate(-45deg);
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: 31px;
+font-size: 18px;
+text-align: center;
+}
 .button {
-    border: 1px solid #000000;
-box-sizing: border-box;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-45deg);
+    }
+.kub2 {
+    position: relative;
 }
-
-.kub2-fon {
-    height: 206.36px;
-    width: 206.36px;
+.kub2_svser {
+    position: absolute;
+    
+    height: 206px;
+    width: 206px;
     background-color: #BACBDC;
-    transform matrix(0.71, 0.67, -0.74, 0.71, 0,0)
+    transform: rotate(45deg);
+    margin-left: 681px;
+    margin-top: -200px;
+}
+.kub2_text {
+    position: absolute
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: center;
+transform: rotate(-45deg);
+}
+.kub_foto_girl {
+    position: relative;
+    width: 643px;
+    height: 643px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    top: -650px;
+    left: 750px;
+}
+.foro_girl {
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -65px;
+    left: -185px;
+}
+.kub3{
+    margin-right: 50px;
 }
 
+.kub3_svser {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    transform: rotate(0deg);
+    background: #BACBDC;
+
+}
+.kub_foto_house {
+    width: 217px;
+    height: 217px;
+    position: relative;
+    transform: rotate(45deg);
+    background: #F1F1F1;
+    overflow: hidden;
+    top: -778px;
+    left: 963px;
+}
+.foto_house{
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -15px;
+    left: -195px;
+}
 .education2 {
         background-color: yellow;
         color: white;
@@ -175,10 +240,11 @@ text-decoration-line: underline;
 }
 
 .rombik {
+    position: relative;
     width: 11px;
     height: 11px;
     background: #FFFFFF;
-transform: matrix(0.71, 0.68, -0.74, 0.71, 0, 0);
+    transform: rotate(45deg);
 }
 .education2_2 {
     background: rgba(0, 0, 0, 0.4);
@@ -382,13 +448,9 @@ letter-spacing: 0.1em;
 color: #000000;
 }
 
-tr {
-position: absolute;
+.tr {
 width: 57px;
 height: 68px;
-left: 410px;
-bottom: 140px;
-
 background: #112132;
 transform: rotate(-180deg);
 }
