@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: red
+    background-color: white;
 }
 
 .contacts {
@@ -25,19 +25,26 @@
     font-style: normal;
     line-height: normal;
     font-size: 24px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
 
 }
 
 .contacts_text {
     display: flex;
-    width: 25%;
+    width: 30%;
     align-items: center;
     justify-content: space-between;
+    margin-right: 100px;
 }
+
 .logo {
     display: flex;
     align-items: center;
     background-color: white;
+    padding-top: 5%;
+    margin-left: 50px;
 }
 
 .logo_logo {
@@ -48,39 +55,61 @@
     font-size: 48px;
     letter-spacing: 0.1em;
     color: black;
+    padding-left: 30px;
 }
 
 .menu {
     display: flex;
     background-color:white;
+    font-family: Ubuntu;
+    font-style: normal;
+    line-height: normal;
+    font-size: 18px;
+    margin-left: 50px;
 }
 
 .menu_tab {
     display: table;
     width: 50%;
+    padding-top: 5%;
 }
-
+.it_left {
+    display: table-cell;
+    text-align: left;
+}
 .it {
     display: table-cell;
     text-align: center;
 }
 
 .education {
-    display: 
-    background-color: green
+   background-color:white;
 }
 
-.kub1 {
-    display: 
-    justify-content: center;
-}
-.kub1-fon {
+
+.kub1_bordo {
+    position: relative;
     height: 480px;
     width: 480px;
     background-color: #BA9898;
-    transform matrix(0.71, 0.67, -0.74, 0.71, 0,0)
+    transform: matrix(0.71, 0.67, -0.74, 0.71, 0, 0);
+    margin-left: 325px;
+    margin-top: 150px;
 }
-
+.kub1_seryi {
+    position: absolute;    
+    width: 36px;
+    height: 36px;
+    background: #435465;
+    }
+.kub1_belyi {
+    position: absolute;    
+    width: 75px;
+    height: 75px;
+    top: -2px;
+    left: -2px;
+    background: white;
+}
 .button {
     border: 1px solid #000000;
 box-sizing: border-box;
@@ -96,6 +125,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .education2 {
         background-color: yellow;
+        color: white;
         
 }
 
@@ -112,6 +142,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     line-height: normal;
     font-size: 24px;
     color: white;
+    padding: 30px;
 }
 .education2_0 {
     display: flex;
@@ -120,6 +151,27 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .education2_1 {
     background: rgba(0, 0, 0, 0.4);
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_edu_2_1 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-decoration-line: underline;
+}
+.text_edu_2_2{
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-decoration-line: underline;
 }
 
 .rombik {
@@ -130,10 +182,20 @@ transform: matrix(0.71, 0.68, -0.74, 0.71, 0, 0);
 }
 .education2_2 {
     background: rgba(0, 0, 0, 0.4);
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .education2_3 {
     background: rgba(0, 0, 0, 0.4);
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }    
 
 .education3 {
@@ -155,24 +217,52 @@ background-color: burlywood
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: fuchsia; 
-
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0.8) 0%,
+            rgba(16, 16, 16, 0) 54.14%, rgba(16, 16, 16, 0) 54.15%, 
+            rgba(2, 2, 2, 0.6) 100%); 
+    
+}
+.text_padding {
+    padding: 50px;
 }
 .education4 {
-            text-align: center;  
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+text-align: center;
+            
+            
 }
 
 .slaider {
     display: flex;
-    }
-
-.slaider-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 930px;
+    height: 335px;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: Ubuntu;
+font-style: normal;
+line-height: 25px;
+font-size: 18px;
+text-align: center;
+}
+.slaider_text {
     width: 690px;
     height: 125px;
-    text-align: center;
-    background-color: blueviolet;
-
 }
+
+.text_bold {
+    font-weight: bold;
+    margin: 20px;
+}
+.text_normal {
+    font-weight: normal;
+}
+
 .container_about {
     display: flex;
     justify-content: center;
@@ -211,6 +301,7 @@ background-color: burlywood
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 30px;
 }
 
 .text_about2 {
