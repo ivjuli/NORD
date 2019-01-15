@@ -85,7 +85,10 @@
 .education {
    background-color:white;
 }
-
+.kub1 {
+    position: absolute;
+    z-index: 1;
+}
 
 .kub1_bordo {
     position: relative;
@@ -124,10 +127,10 @@ text-align: center;
     }
 .kub2 {
     position: relative;
+
 }
 .kub2_svser {
-    position: absolute;
-    
+    position: absolute; 
     height: 206px;
     width: 206px;
     background-color: #BACBDC;
@@ -151,8 +154,7 @@ transform: rotate(-45deg);
     height: 643px;
     transform: rotate(45deg);
     overflow: hidden;
-    top: -650px;
-    left: 750px;
+    left: 700px;
 }
 .foro_girl {
     position: absolute;
@@ -179,8 +181,8 @@ transform: rotate(-45deg);
     transform: rotate(45deg);
     background: #F1F1F1;
     overflow: hidden;
-    top: -778px;
-    left: 963px;
+    top: -125px;
+    left: 915px;
 }
 .foto_house{
     position: absolute;
