@@ -83,7 +83,9 @@
 }
 
 .education {
-   background-color:white;
+    width: 100%;
+    background-color:white;
+   overflow: hidden;
 }
 .kub1 {
     position: absolute;
@@ -113,6 +115,14 @@
     left: -2px;
     background: white;
 }
+.bordo_flex {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .kub1_bordo_text {
     transform: rotate(-45deg);
     font-family: Ubuntu;
@@ -125,9 +135,13 @@ text-align: center;
 .button {
     transform: rotate(-45deg);
     }
-.kub2 {
-    position: relative;
 
+.kub2 {
+    display: flex;
+    height: 206px;
+    width: 206px;
+    
+    
 }
 .kub2_svser {
     position: absolute; 
@@ -135,11 +149,14 @@ text-align: center;
     width: 206px;
     background-color: #BACBDC;
     transform: rotate(45deg);
-    margin-left: 681px;
-    margin-top: -200px;
+    margin-left: 660px;
+    margin-top: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .kub2_text {
-    position: absolute
+    position: absolute;
 font-family: Ubuntu;
 font-style: normal;
 font-weight: normal;
@@ -147,6 +164,12 @@ line-height: normal;
 font-size: 18px;
 text-align: center;
 transform: rotate(-45deg);
+display: flex;
+flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 137px;
+    height: 213px;
 }
 .kub_foto_girl {
     position: relative;
@@ -174,15 +197,17 @@ transform: rotate(-45deg);
     background: #BACBDC;
 
 }
+.kub4 {
+    position: absolute;
+   
+}
 .kub_foto_house {
     width: 217px;
     height: 217px;
     position: relative;
-    transform: rotate(45deg);
     background: #F1F1F1;
     overflow: hidden;
-    top: -125px;
-    left: 915px;
+   
 }
 .foto_house{
     position: absolute;
@@ -266,20 +291,89 @@ text-decoration-line: underline;
     justify-content: space-between;
 }    
 
-.education3 {
+.advanteges {
 background-color: burlywood  
 }
 
-.kub3_1 {
-    text-align: center;
+.seryi_container {
+    position: relative;
+    width: 393px;
+    height: 393px;
+    background: #778798;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.kub3_2 {
+.seryi_flex {
+    position: absolute;
+    transform: rotate(45deg);
+    width: 303px;
+    height: 303px; 
+}
+
+.kub3a_seryi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 303px;
+    height: 303px; 
+}
+
+.tex_kub_seryi {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: 25px;
+font-size: 18px;
+text-align: center;
+color: white;
+
+}
+.kub3a_bordo {
+    position: relative;
     background-color: #432132;
+    width: 310px;
+    height: 310px; 
+
 }
-
-
-
+.kub_v_kube {
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(-45deg);
+}
+.kubik_vbordo {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    transform: rotate(0deg);
+    background: #435465;
+    margin: 5%;
+}
+.logo_vkube3a {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+text-align: center;
+position: relative;
+margin-top: 5px;
+color: white;
+    
+}
+.bordo_container {
+    position: absolute;
+    transform: rotate(45deg);
+    margin-left: 800px;
+}
 .fon_slaider {
     display: flex;
     justify-content: center;
@@ -292,6 +386,7 @@ background-color: burlywood
 }
 .text_padding {
     padding: 50px;
+    color: white;
 }
 .education4 {
 font-family: Ubuntu;
@@ -308,7 +403,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 930px;
     height: 335px;
     background: rgba(0, 0, 0, 0.4);
@@ -317,12 +412,47 @@ font-style: normal;
 line-height: 25px;
 font-size: 18px;
 text-align: center;
+color: white;
 }
 .slaider_text {
     width: 690px;
     height: 125px;
+  
 }
+.rombik_flex {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
 
+}
+.container_slaider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 930px;
+    
+}
+.container_strelka {
+    width: 930px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: magenta;
+}
+.strelka1 {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #FFFFFF;
+transform: rotate(45deg);
+}
+.strelka2 {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #FFFFFF;
+transform: rotate(-134.43deg);
+}
 .text_bold {
     font-weight: bold;
     margin: 20px;
