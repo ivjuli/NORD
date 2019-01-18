@@ -292,7 +292,8 @@ text-decoration-line: underline;
 }    
 
 .advanteges {
-background-color: burlywood  
+    width: 100%;
+    background: #112132;
 }
 
 .seryi_container {
