@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+    background-color:white;
+    font-family: Ubuntu;
+    font-style: normal;
+    line-height: normal;
+    font-size: 18px;
+    padding-left: 50px;
+    
+}
+
+.menu_tab {
+    display: table;
+    width: 50%;
+    padding-top: 5%;
+}
