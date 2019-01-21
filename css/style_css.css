@@ -4,17 +4,12 @@
 }
 
 .wrapper {
+    position: relative;
     width: 100%;
-    max-width: 1510px;
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    
+          
 }
 .contacts {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,8 +20,9 @@
     font-style: normal;
     line-height: normal;
     font-size: 24px;
-    margin-top: 20px;
-    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
     
 
 }
@@ -43,7 +39,7 @@
     display: flex;
     align-items: center;
     background-color: white;
-    padding-top: 5%;
+    padding-top: 100px;
     margin-left: 50px;
 }
 
@@ -65,7 +61,8 @@
     font-style: normal;
     line-height: normal;
     font-size: 18px;
-    margin-left: 50px;
+    padding-left: 50px;
+    
 }
 
 .menu_tab {
@@ -98,6 +95,7 @@ a.line:hover {
 }
 .kub_white {
     position: absolute;
+    z-index: 1;
     width: 600px;
     height: 600px;
     transform: rotate(45deg);
@@ -257,13 +255,21 @@ flex-direction: column;
         background-image: url(../img/img_sea_background.png);
         width: 100%;
         color: white;
-        
+        position: relative;
+        margin-top: -500px;
+        min-height: 1000px;
+    height: 1px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.edu_center{
+.edu_center {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding-top: 20%;
+    padding-bottom: 5px;
 }
 
 .logo2_2 {
@@ -278,6 +284,11 @@ flex-direction: column;
 .education2_0 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+
 }
 
 .education2_1 {
@@ -287,6 +298,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 3%;
 }
 .text_edu_2_1 {
     font-family: Ubuntu;
@@ -328,6 +340,7 @@ a.line_white:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 3%;
 }
 
 .education2_3 {
@@ -337,9 +350,25 @@ a.line_white:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 3%;
+    padding-bottom: 7%;
 }    
 
+.ar {
+    margin-left: 5px;
+}
+
+edu_conteiner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    padding: 5px;
+}
 .advanteges {
+    position: relative;
     width: 100%;
     background: #112132;
 }
@@ -419,18 +448,19 @@ color: white;
     
 }
 .bordo_container {
+    
     transform: rotate(45deg);
     margin-left: 800px;
 }
 .container_teacher {
     width: 228px;
     height: 228px;
-    position: relative;
+    
     overflow: hidden;
     transform: rotate(45deg);
 }
 .foto_teacher {
-    position: absolute;
+    
     transform: rotate(-45deg);
     top: 0;
 
@@ -446,14 +476,49 @@ color: white;
     background-color: #112132;
 }
 .container_cabinet {
+   
     width: 615px;
-    height: 615 px;
-    background-image: url(/../img/img_cabinet.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;     
+    height: 615px;
+    overflow: hidden;
+    transform: rotate(-45deg);
 }
-
+.cabinet_foto {
+    
+    transform: rotate(45deg);
+}
+.container_cup {
+    
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+}
+.cup_foto {
+    
+    transform: rotate(45deg);
+}
+.container_nature {
+    
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+}
+.nature_foto {
+    
+    transform: rotate(45deg);
+}
+.container_student {
+    
+    width: 344px;
+    height: 344px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+}
+.student_foto {
+    
+    transform: rotate(45deg);
+}
 .fon_slaider {
     position: relative;
     display: flex;
@@ -464,6 +529,8 @@ color: white;
     min-height: 670px;
     height: 1px;
     background-image: url(../img/img_sea_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slaider_index {
     position: absolute;
@@ -558,10 +625,18 @@ color: white;
 }
 
 .container_about {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    align-items: center;
+    width: 100%;    
+    min-height: 617px;
+    height: 1px;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
 
 }
 .about {
@@ -569,6 +644,7 @@ color: white;
     justify-content: space-around;
     position: absolute;
     width: 100%; 
+    margin-top: 7%;
 }
 
 .about1 {
@@ -623,7 +699,8 @@ color: white;
     position: relative;
     width: 100%;
     max-width: 1510px;
-    margin: 0 auto;
+    min-height: 617px;
+    height: 1px;
 }
 img.m {
     width: 100%; 
@@ -648,24 +725,31 @@ line-height: 25px;
 font-size: 18px;
 color: white;
 }
+
 .footer {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    width: 100%;    
+    min-height: 340px;
+    height: 1px;
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .map {
     width: 100%;
-    height: inherit;     
+    height: 100%;     
     margin: 0 auto;
-    z-index: -1;
     position: absolute;
     top: 0;
     bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    background-size: cover;
 }
 
 
@@ -681,9 +765,6 @@ letter-spacing: 0.1em;
 color: #000000;
 }
 
-.tr {
-width: 57px;
-height: 68px;
-background: #112132;
-transform: rotate(-180deg);
+.poligon {
+    width: 50%;
 }
