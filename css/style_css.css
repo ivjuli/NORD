@@ -728,14 +728,11 @@ color: white;
 
 .footer {
     position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+   
     width: 100%;    
     min-height: 340px;
     height: 1px;
-    background-image: url(../img/map.png);
+    background-image: url(../img/map_metka.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -753,18 +750,5 @@ color: white;
 }
 
 
-.logo_footer {
-font-family: Puritan;
-src: url(../fonts/Puritan.ttf);
-font-style: normal;
-font-weight: normal;
-line-height: 32px;
-font-size: 24px;
-letter-spacing: 0.1em;
 
-color: #000000;
-}
 
-.poligon {
-    width: 50%;
-}
