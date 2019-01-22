@@ -92,9 +92,9 @@ a.line:hover {
 .education {
     width: 100%;
     max-width: 1510px;
-
+    height: 135px;
     background-color:white;
-   overflow: hidden;
+  
 }
 .kub_white {
     position: absolute;
@@ -103,9 +103,8 @@ a.line:hover {
     height: 600px;
     transform: rotate(45deg);
     background-color: white;
-    left: 15%;
+    left: 9%;
     top: 500px;
-
 }
 .kub1 {
     top: 0;
@@ -119,8 +118,8 @@ a.line:hover {
 
 .kub1_bordo {
     position: absolute;
-    height: 480px;
-    width: 480px;
+    height: 450px;
+    width: 450px;
     background-color: #BA9898;
     transform: rotate(0deg);
     top: 0;
@@ -759,4 +758,89 @@ color: white;
 
 
 
+@media (max-width: 1600px) and (min-width: 1450px) {
+   
+}
 
+@media (max-width: 1300px) and (min-width: 1125px) {
+    .contacts_text {width: 45%;}
+}
+
+@media (max-width: 1125px) and (min-width: 1000px) {
+    .contacts_text {width: 50%;}
+}
+
+@media (max-width: 1100px) and (min-width: 875px) {
+    .contacts_text {width: 55%;}
+}
+
+@media (max-width: 875px) and (min-width: 675px) {
+    .contacts_text {
+        width: 75%;
+        margin: 30px;
+    }
+        
+    .contacts {
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 675px) and (min-width: 445px) {
+    .contacts_text {
+        width: 100%;
+        margin: 20px;
+    }
+        
+    .contacts {
+        flex-direction: column;
+        font-size: 22px;
+    }
+    .menu_tab {
+        width: 100%;
+        
+    }
+    .menu {
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 675px) {
+    .menu_tab {
+        width: 100%;
+      
+    }
+    
+    }
+
+    @media (max-width: 445px) {
+        .contacts_text {
+            width: 100%;
+            margin: 20px;
+        }
+            
+        .contacts {
+            flex-direction: column;
+            font-size: 14px;
+        }
+        .menu_tab {
+            width: 100%;
+            
+        }
+        .menu {
+            padding-left: 0px;
+            font-size: 10px;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+        }
+    }
