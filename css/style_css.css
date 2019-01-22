@@ -1,11 +1,8 @@
-@font-face {
-    font-family: Ubuntu;
-    src: url(../fonts/Ubuntu.ttf);
-}
-
 .wrapper {
     position: relative;
     width: 100%;
+    max-width: 1510px;
+    overflow: hidden;
           
 }
 .contacts {
@@ -14,9 +11,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-width: 1510px;
+    height: 50px;
     color: black;
     background-color: white;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
     font-size: 24px;
@@ -44,7 +43,7 @@
 }
 
 .logo_logo {
-    font-family: Puritan;
+    font-family: 'Puritan', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
@@ -55,9 +54,11 @@
 }
 
 .menu {
+    max-width: 1510px;
+    height: 125px;
     display: flex;
     background-color:white;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
     font-size: 18px;
@@ -90,6 +91,8 @@ a.line:hover {
 }
 .education {
     width: 100%;
+    max-width: 1510px;
+
     background-color:white;
    overflow: hidden;
 }
@@ -146,7 +149,7 @@ a.line:hover {
 }
 .kub1_bordo_text {
     transform: rotate(-45deg);
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 31px;
@@ -159,7 +162,7 @@ button {
     background-color:  #BA9898;
     width: 210px;
     height: 45px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 31px;
@@ -191,7 +194,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .kub2_text {
     position: absolute;
-font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -254,6 +257,9 @@ flex-direction: column;
 .education2 {
         background-image: url(../img/img_sea_background.png);
         width: 100%;
+        max-width: 1510px;
+        min-height: 1167px;
+    height: 1px;
         color: white;
         position: relative;
         margin-top: -500px;
@@ -273,7 +279,7 @@ flex-direction: column;
 }
 
 .logo2_2 {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
@@ -301,7 +307,7 @@ flex-direction: column;
     padding: 3%;
 }
 .text_edu_2_1 {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -309,7 +315,7 @@ font-size: 14px;
 text-decoration-line: underline;
 }
 .text_edu_2_2{
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -370,6 +376,7 @@ edu_conteiner {
 .advanteges {
     position: relative;
     width: 100%;
+    max-width: 1510px;
     background: #112132;
 }
 
@@ -401,7 +408,7 @@ edu_conteiner {
 }
 
 .tex_kub_seryi {
-font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 25px;
@@ -436,7 +443,7 @@ color: white;
     margin: 5%;
 }
 .logo_vkube3a {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -525,7 +532,8 @@ color: white;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 100%;    
+    width: 100%;  
+    max-width: 1510px;  
     min-height: 670px;
     height: 1px;
     background-image: url(../img/img_sea_background.png);
@@ -562,7 +570,7 @@ color: white;
     color: white;
 }
 .education4 {
-font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -580,7 +588,7 @@ text-align: center;
     width: 930px;
     height: 335px;
     background: rgba(0, 0, 0, 0.4);
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 line-height: 25px;
 font-size: 18px;
@@ -675,7 +683,7 @@ color: white;
 }
 
 .text_about2 {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -685,7 +693,7 @@ color: white;
 
 .about3 {
     height: 90px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 25px;
@@ -708,9 +716,8 @@ img.m {
   }
 
 .logo_text_about {
-    font-family: Puritan;
-    src: url(../fonts/Puritan.ttf);
-font-style: normal;
+    font-family: 'Puritan', sans-serif;
+    font-style: normal;
 font-weight: normal;
 line-height: 64px;
 font-size: 48px;
@@ -718,7 +725,7 @@ letter-spacing: 0.1em;
 color: white;
 }
 .logo_text_about2 {
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 25px;
@@ -729,7 +736,8 @@ color: white;
 .footer {
     position: relative;
    
-    width: 100%;    
+    width: 100%;  
+    max-width: 1510px;  
     min-height: 340px;
     height: 1px;
     background-image: url(../img/map_metka.png);
