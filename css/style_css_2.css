@@ -1,7 +1,29 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1510px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.contacts {
+    width: 100%;
+    max-width: 1510px;
+    background-color: blue;
+}
+
+.menu_flex {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .menu {
     display: flex;
     background-color:white;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
     font-size: 18px;
@@ -11,6 +33,190 @@
 
 .menu_tab {
     display: table;
-    width: 50%;
+    width: 40%;
     padding-top: 5%;
 }
+.it {
+    display: table-cell;
+    text-align: center;
+}
+.line {
+    text-decoration: none;
+    color: #000000;
+    }
+    
+    a.line:hover {
+        border-top: 2px solid black;
+        transition-property: all;
+        transition-duration: 200ms;
+    }
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(-45deg);
+    
+}
+
+.logo_logo {
+    font-family: 'Puritan', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    color: black;
+    
+}
+.romb {
+    width: 300px;
+    height: 300px;
+    background: #BA9898;
+    transform: rotate(45deg);
+}
+.tel {
+    ffont-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+color: #000000;
+}
+
+.container_yaziki {
+    width: 100%;
+    max-width: 1510px;
+    background-color: yellow;
+}
+
+.container_yrovni {
+    width: 100%;
+    max-width: 1510px;
+    background-color: magenta;
+}
+.tex_yrovni {
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+padding: 20px;
+
+}
+.flex_yrovni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+
+}
+.yrovni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+height: 180px;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.container_raspisanie {
+    width: 100%;
+    max-width: 1510px;
+    
+    background-color:#112132;
+ }
+.tex_raspisanie {
+        font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+color: white;
+padding: 20px;
+}
+.flex_raspisanie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+.raspisanie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 452px;
+height: 266px;
+background: #C4C4C4;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 25px;
+margin-bottom: 30px;
+
+}
+.footer {
+    width: 100%;
+    max-width: 1510px;
+    max-height: 373px;
+    height: 373px;
+    background-color: #C4C4C4;
+ }
+ 
+ 
+
+ 
+
+@media (max-width: 1600px) and (min-width: 1450px) {
+    .yrovni {width: 450px;}
+    .raspisanie {width: 450px;}
+}
+
+@media (max-width: 1450px) and (min-width: 1300px) {
+    .yrovni {width: 400px;}
+    .raspisanie {width: 400px;}
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .yrovni {width: 350px;}
+    .raspisanie {width: 350px;}
+
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .yrovni {width: 300px;}
+    .raspisanie {width: 300px;}
+}
+
+@media (max-width: 1000px) and (min-width: 850px) {
+    .yrovni {width: 400px;}
+    .raspisanie {width: 400px;}
+} 
+
+@media (max-width: 850px) and (min-width: 700px) {
+    .yrovni {width: 650px;}
+    .raspisanie {width: 650px;}
+} 
+@media (max-width: 700px) and (min-width: 600px) {
+    .yrovni {width: 550px;}
+    .raspisanie {width: 550px;}
+} 
