@@ -70,6 +70,8 @@
     display: table;
     width: 50%;
     padding-top: 5%;
+    margin: 0;
+    padding-left: 0;
 }
 .it_left {
     display: table-cell;
@@ -304,6 +306,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: space-between;
     padding: 3%;
+    margin: 1%;
 }
 .text_edu_2_1 {
     font-family: 'Ubuntu', sans-serif;
@@ -346,6 +349,7 @@ a.line_white:hover {
     flex-direction: column;
     justify-content: space-between;
     padding: 3%;
+    margin: 1%;
 }
 
 .education2_3 {
@@ -357,8 +361,11 @@ a.line_white:hover {
     justify-content: space-between;
     padding: 3%;
     padding-bottom: 7%;
+    margin: 1%;
 }    
-
+.ballast {
+    
+}
 .ar {
     margin-left: 5px;
 }
@@ -616,7 +623,6 @@ color: white;
 .container_strelka {
     position: absolute;
     width: 850px;
-    width: 850px;
     height: 35px;
     display: flex;
     align-items: center;
@@ -786,10 +792,36 @@ color: white;
     .logo {
         display: flex;
         justify-content: center;
+        padding-left: 0;
     }
+    .about {
+        width: 98%;
+    }
+
+    .text_about2 {
+        font-size: 12px;
+    }
+    .about3 {
+        font-size: 12px;
+    }
+    .text_about { padding-left: 10px; 
+    }
+
+    .slaider {
+        width: 600px;
+        font-size: 16px;
+        }
+       .container_strelka {
+        width: 550px;
+       }
+       .slaider_text {
+        width: 450px;
+        height: 120px;
+    }
+
 }
 
-@media (max-width: 675px) and (min-width: 445px) {
+@media (max-width: 675px) {
     .contacts_text {
         width: 100%;
         margin: 20px;
@@ -804,24 +836,59 @@ color: white;
         
     }
     .menu {
-        padding-left: 0px;
+        padding-left: 0;
         font-size: 14px;
     }
     .logo {
         display: flex;
         justify-content: center;
+        padding-left: 0;
     }
+    .it_left {
+        text-align: center;
+
+    }
+    .about {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+    }
+    .about2 {
+        margin: 5%;
+    }
+    .about3 {
+        text-align: center;
+        margin: 3%;
+    }
+    
+    .education2_0 {
+    flex-direction: column;
+}
+
+.slaider {
+    width: 450px;
+    font-size: 12px;
+    }
+   .container_strelka {
+    width: 375px;
+   }
+   .slaider_text {
+    width: 300px;
+    height: 125px;
+  }
+  .education4 {
+   font-size: 20px;
 }
 
 @media (max-width: 1000px) and (min-width: 675px) {
     .menu_tab {
         width: 100%;
-      
-    }
-    
-    }
+        }    
+}
 
-    @media (max-width: 445px) {
+@media (max-width: 445px) {
         .contacts_text {
             width: 100%;
             margin: 20px;
@@ -836,11 +903,50 @@ color: white;
             
         }
         .menu {
-            padding-left: 0px;
+            padding-left: 0;
             font-size: 10px;
         }
         .logo {
             display: flex;
             justify-content: center;
+            padding-left: 0;
         }
+        .it_left {
+            text-align: center;
+    
+        }
+        
+        .slaider {
+            width: 300px;
+            font-size: 10px;
+            }
+           .container_strelka {
+            width: 275px;
+           }
+           .slaider_text {
+            width: 250px;
+            height: 150px;
+          }
+          .education4 {
+           font-size: 16px;}
+
+    @media (max-width: 1000px) and (min-width: 875px) {
+        .about {
+            width: 97%
+        }
+        .text_about {
+            padding-left: 15px;
+        }
+
+        .slaider {
+        width: 800px;
+        }
+       .container_strelka {
+        width: 700px;
+       }
+       .slaider_text {
+        width: 550px;
+        height: 125px;
+      
+    }
     }
