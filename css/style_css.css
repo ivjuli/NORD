@@ -881,6 +881,16 @@ color: white;
   .education4 {
    font-size: 20px;
 }
+fon_slaider {
+    background-image: none;
+    background-color: #112132;
+}
+container_about {
+        background-image: none;
+        background-color:  #432132;
+    }
+
+}
 
 @media (max-width: 1000px) and (min-width: 675px) {
     .menu_tab {
@@ -928,7 +938,20 @@ color: white;
             height: 150px;
           }
           .education4 {
-           font-size: 16px;}
+           font-size: 16px;
+        }
+    .fon_slaider {
+            background-image: none;
+            background-color: #112132;
+        }
+    .footer {
+        background-image: none;
+    }
+    .container_about {
+        background-image: none;
+        background-color:  #432132;
+    }
+}
 
     @media (max-width: 1000px) and (min-width: 875px) {
         .about {
@@ -946,7 +969,6 @@ color: white;
        }
        .slaider_text {
         width: 550px;
-        height: 125px;
-      
+        height: 125px;      
     }
-    }
+}
