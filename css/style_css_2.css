@@ -11,6 +11,7 @@
     max-width: 1510px;
     background-color: blue;
     position: relative;
+    height: 250px;
 }
 
 .menu_flex {
@@ -22,13 +23,16 @@
 
 }
 .menu {
+    right: 0;
+    width: 70%;
     display: flex;
-    background-color:white;
+    background-color: gold;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
     font-size: 18px;
     padding-left: 50px;
+    position: absolute;
     
 }
 
@@ -57,6 +61,9 @@
     flex-direction: column;
     align-items: center;
     transform: rotate(-45deg);
+    position: relative;
+    margin-left: 125px;
+    margin-top: 130px;
     
 }
 
@@ -80,7 +87,8 @@
     position: absolute;
 }
 .tel {
-    ffont-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -178,6 +186,11 @@ margin-right: 10px;
 margin-top: 25px;
 margin-bottom: 30px;
 
+}
+
+.flex_zapis1 {
+    display: flex;
+color: white;
 }
 .footer {
     width: 100%;
