@@ -3,6 +3,7 @@
     width: 100%;
     max-width: 1510px;
     overflow: hidden;
+    background-color: white;
           
 }
 .contacts {
@@ -96,7 +97,7 @@ a.line:hover {
     width: 600px;
     height: 600px;
     transform: rotate(45deg);
-    background-color: green;
+    background-color: white;
     position: relative;
     z-index: 1;
     left: 125px;
@@ -106,7 +107,7 @@ a.line:hover {
     width: 600px;
     height: 600px;
     transform: rotate(45deg);
-    background-color: yellow;
+    background-color: white;
     position: relative;
     z-index: 1;
     left: 1225px;
@@ -284,19 +285,24 @@ flex-direction: column;
     left: -60px;
 
 }
+.container_rovno_fon {
+    width: 100%;
+    max-width: 1510px;
+    height: 1px;
+    position: relative;
+    background-color: yellowgreen;
+}
 .education2 {
         background-image: url(../img/img_sea_background.png);
         width: 100%;
         max-width: 1510px;
-        min-height: 1167px;
-    height: 1px;
         color: white;
-        position: relative;
+        position: absolute;
         top: -1450px;
-        min-height: 1000px;
-    height: 1px;
-    background-repeat: no-repeat;
+        bottom: 0;
+        background-repeat: no-repeat;
     background-size: 100%;
+   overflow: hidden;
 }
 
 .edu_center {
@@ -304,8 +310,8 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 30%;
-    padding-bottom: 5px;
+    margin-top: 475px;
+    padding-bottom: 10px;
     position: relative;
     z-index: 3;
 }
@@ -323,9 +329,10 @@ flex-direction: column;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    margin-top: 2%;
     position: relative;
     z-index: 2;
 
@@ -334,11 +341,11 @@ flex-direction: column;
 .education2_1 {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
-    height: 250px;
+    height: 275px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3%;
+    padding: 4%;
     margin: 1%;
 }
 .text_edu_2_1 {
@@ -377,22 +384,22 @@ a.line_white:hover {
 .education2_2 {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
-    height: 250px;
+    height: 275px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3%;
+    padding: 4%;
     margin: 1%;
 }
 
 .education2_3 {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
-    height: 250px;
+    height: 275px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3%;
+    padding: 4%;
     padding-bottom: 7%;
     margin: 1%;
 }    
@@ -417,6 +424,7 @@ edu_conteiner {
     width: 100%;
     max-width: 1510px;
     background: #112132;
+    overflow: hidden;
 }
 
 .seryi_container {
@@ -428,6 +436,8 @@ edu_conteiner {
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 100px;
+    left: 400px;
 }
 
 .seryi_flex {
@@ -501,12 +511,15 @@ color: white;
 .container_teacher {
     width: 228px;
     height: 228px;
-    
+    position: relative;
+    bottom: 100px;
+    left: 200px;
     overflow: hidden;
     transform: rotate(45deg);
+    top: -500px;
 }
 .foto_teacher {
-    
+    position: absolute;
     transform: rotate(-45deg);
     top: 0;
 
@@ -522,47 +535,52 @@ color: white;
     background-color: #112132;
 }
 .container_cabinet {
-   
+    position: relative;
     width: 615px;
     height: 615px;
     overflow: hidden;
     transform: rotate(-45deg);
+    top: -500px;
 }
 .cabinet_foto {
-    
+    position: absolute;
     transform: rotate(45deg);
+    
 }
 .container_cup {
-    
+    position: relative;
     width: 500px;
     height: 500px;
     overflow: hidden;
     transform: rotate(-45deg);
+    top: -500px;
 }
 .cup_foto {
-    
+    position: absolute;
     transform: rotate(45deg);
 }
 .container_nature {
-    
+    position: relative;
     width: 400px;
     height: 400px;
     overflow: hidden;
     transform: rotate(-45deg);
+    top: -500px;
 }
 .nature_foto {
-    
+    position: absolute;
     transform: rotate(45deg);
 }
 .container_student {
-    
+    position: relative;
     width: 344px;
     height: 344px;
     overflow: hidden;
     transform: rotate(-45deg);
+    top: -500px;
 }
 .student_foto {
-    
+    position: absolute;
     transform: rotate(45deg);
 }
 .fon_slaider {
