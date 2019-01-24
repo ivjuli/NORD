@@ -68,7 +68,7 @@
 
 .menu_tab {
     display: table;
-    width: 50%;
+    width: 40%;
     padding-top: 5%;
     margin: 0;
     padding-left: 0;
@@ -91,24 +91,49 @@ a.line:hover {
     transition-property: all;
     transition-duration: 200ms;
 }
-.education {
-    width: 100%;
-    max-width: 1510px;
-    height: 135px;
-    background-color:white;
-  
+
+.kyb_fon_white {
+    width: 600px;
+    height: 600px;
+    transform: rotate(45deg);
+    background-color: green;
+    position: relative;
+    z-index: 1;
+    left: 125px;
+    top: -550px;
+}
+.kyb_fon_white2 {
+    width: 600px;
+    height: 600px;
+    transform: rotate(45deg);
+    background-color: yellow;
+    position: relative;
+    z-index: 1;
+    left: 1225px;
+    top: -1125px;
+
+}
+.conteiner_kybi {
+    width: 1000px;
+    height: 1000px;
+    transform: rotate(45deg);
+    position: relative;
+    z-index: 3;
+    right: 0;
+    left: 100px;
+    top: 150px;
+      
 }
 .kub_white {
     position: absolute;
     z-index: 1;
-    width: 600px;
-    height: 600px;
-    transform: rotate(45deg);
-    background-color: white;
-    left: 9%;
-    top: 500px;
+    width: 450px;
+    height: 450px;
+    left: 20%;
+    top: 450px;
+    z-index: 2;
 }
-.kub1 {
+kub1 {
     top: 0;
     bottom: 0;
     left: 0;
@@ -156,10 +181,11 @@ font-weight: normal;
 line-height: 31px;
 font-size: 18px;
 text-align: center;
+margin-top: -25px;
 }
 
 button {
-    transform: rotate(-45deg);
+    margin-top: 25px;
     background-color:  #BA9898;
     width: 210px;
     height: 45px;
@@ -174,24 +200,23 @@ box-sizing: border-box;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-.kub2 {
-    display: flex;
-    height: 206px;
-    width: 206px;
-    
-    
-}
 .kub2_svser {
     position: absolute; 
     height: 206px;
     width: 206px;
     background-color: #BACBDC;
-    transform: rotate(45deg);
-    margin-left: 660px;
-    margin-top: 780px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 3;
+    right: -206px;
+    top: 95px;
+}
+kybiki_svser {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 100);
 }
 .kub2_text {
     position: absolute;
@@ -211,20 +236,23 @@ flex-direction: column;
 }
 .kub_foto_girl {
     position: relative;
-    width: 643px;
-    height: 643px;
-    transform: rotate(45deg);
+    width: 620px;
+    height: 620px;
     overflow: hidden;
     left: 700px;
+    z-index: 1;
+    margin-right: 50px;
+    margin-bottom: 300px;
+    margin-top: -350px;
+    margin-left: -265px;
 }
+
 .foro_girl {
     position: absolute;
     transform: rotate(-45deg);
-    top: -65px;
-    left: -185px;
-}
-.kub3{
-    margin-right: 50px;
+    top: -55px;
+    left: -125px;
+
 }
 
 .kub3_svser {
@@ -242,8 +270,8 @@ flex-direction: column;
    
 }
 .kub_foto_house {
-    width: 217px;
-    height: 217px;
+    width: 200px;
+    height: 200px;
     position: relative;
     background: #F1F1F1;
     overflow: hidden;
@@ -252,8 +280,9 @@ flex-direction: column;
 .foto_house{
     position: absolute;
     transform: rotate(-45deg);
-    top: -15px;
-    left: -195px;
+    top: -35px;
+    left: -60px;
+
 }
 .education2 {
         background-image: url(../img/img_sea_background.png);
@@ -263,7 +292,7 @@ flex-direction: column;
     height: 1px;
         color: white;
         position: relative;
-        margin-top: -500px;
+        top: -1450px;
         min-height: 1000px;
     height: 1px;
     background-repeat: no-repeat;
@@ -275,8 +304,10 @@ flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 30%;
     padding-bottom: 5px;
+    position: relative;
+    z-index: 3;
 }
 
 .logo2_2 {
@@ -295,6 +326,8 @@ flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 15%;
+    position: relative;
+    z-index: 2;
 
 }
 
