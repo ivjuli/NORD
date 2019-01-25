@@ -63,23 +63,23 @@
     transform: rotate(-45deg);
     position: relative;
     margin-left: 125px;
-    margin-top: 130px;
+    margin-top: 135px;
     
 }
 
 .logo_logo {
     font-family: 'Puritan', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 48px;
-    letter-spacing: 0.1em;
+font-weight: normal;
+line-height: 32px;
+font-size: 24px;
+letter-spacing: 0.1em;
     color: black;
     
 }
 .romb {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: #BA9898;
     transform: rotate(45deg);
     margin-top: -150px;
