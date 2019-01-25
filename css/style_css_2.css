@@ -6,41 +6,50 @@
     background-color: aqua;
 }
 
-.contacts {
+.logo_contacts {
     width: 100%;
     max-width: 1510px;
-    background-color: blue;
+    background-color: white;
     position: relative;
-    height: 250px;
+    height: 175px;
 }
-
-.menu_flex {
-    width: 70%;
+.contacts {
+    position: absolute;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 1510px;
+    height: 50px;
+    color: black;
+}
+.contacts_text {
+    display: flex;
+    width: 25%;
     align-items: center;
     justify-content: space-between;
-
-}
-.menu {
-    right: 0;
-    width: 70%;
-    display: flex;
-    background-color: gold;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
     font-size: 18px;
-    padding-left: 50px;
-    position: absolute;
+    padding-right: 50px;
+    padding-top: 50px;
     
 }
 
 .menu_tab {
     display: table;
-    width: 40%;
-    padding-top: 5%;
+    width: 45%;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-right: 150px;
 }
+
 .it {
     display: table-cell;
     text-align: center;
@@ -48,13 +57,13 @@
 .line {
     text-decoration: none;
     color: #000000;
-    }
+}
     
-    a.line:hover {
+a.line:hover {
         border-top: 2px solid black;
         transition-property: all;
         transition-duration: 200ms;
-    }
+}
 
 .logo {
     display: flex;
@@ -68,8 +77,8 @@
 }
 
 .logo_logo {
-    font-family: 'Puritan', sans-serif;
-    font-style: normal;
+font-family: 'Puritan', sans-serif;
+font-style: normal;
 font-weight: normal;
 line-height: 32px;
 font-size: 24px;
@@ -85,15 +94,6 @@ letter-spacing: 0.1em;
     margin-top: -150px;
     margin-left: 65px;
     position: absolute;
-}
-.tel {
-    position: absolute;
-    font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-color: #000000;
 }
 
 .container_yaziki {
@@ -127,10 +127,10 @@ padding: 20px;
 
 }
 .yrovni {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 450px;
 height: 180px;
 background-color: rgba(0, 0, 0, 0.5);
 color: white;
