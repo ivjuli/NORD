@@ -423,6 +423,7 @@ edu_conteiner {
     position: relative;
     width: 100%;
     max-width: 1510px;
+    height: 1100px;
     background: #112132;
     overflow: hidden;
 }
@@ -437,7 +438,7 @@ edu_conteiner {
     justify-content: center;
     align-items: center;
     top: 100px;
-    left: 400px;
+    left: 550px;
 }
 
 .seryi_flex {
@@ -506,8 +507,11 @@ color: white;
 .bordo_container {
     
     transform: rotate(45deg);
-    margin-left: 800px;
+    left: 1000px;
+    top: 125px;
+    position: absolute;
 }
+
 .container_teacher {
     width: 228px;
     height: 228px;
@@ -516,7 +520,8 @@ color: white;
     left: 200px;
     overflow: hidden;
     transform: rotate(45deg);
-    top: -500px;
+    top: -1800px;
+    left: 825px;
 }
 .foto_teacher {
     position: absolute;
@@ -540,7 +545,8 @@ color: white;
     height: 615px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -500px;
+    top: -1000px;
+    left: 600px;
 }
 .cabinet_foto {
     position: absolute;
@@ -553,8 +559,9 @@ color: white;
     height: 500px;
     overflow: hidden;
     transform: rotate(-45deg);
-        top: -1450px;
+    top: -1125px;
     left: 25px;
+
 }
 .cup_foto {
     position: absolute;
@@ -566,7 +573,7 @@ color: white;
     height: 400px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -500px;
+    top: 25px;
 }
 .nature_foto {
     position: absolute;
@@ -578,8 +585,10 @@ color: white;
     height: 344px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -500px;
+    top: -350px;
+    left: 1100px;
 }
+
 .student_foto {
     position: absolute;
     transform: rotate(45deg);
