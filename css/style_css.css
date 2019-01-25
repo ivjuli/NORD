@@ -553,7 +553,8 @@ color: white;
     height: 500px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -500px;
+        top: -1450px;
+    left: 25px;
 }
 .cup_foto {
     position: absolute;
