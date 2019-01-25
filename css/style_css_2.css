@@ -197,10 +197,15 @@ color: white;
     max-width: 1510px;
     max-height: 373px;
     height: 373px;
-    background-color: #C4C4C4;
+    background-color: #778798;
  }
  
- 
+.romb_footer {
+    width: 197px;
+    height: 197px;
+    transform: rotate(45deg);
+    background-color: #BA9898;
+} 
 
  
 
