@@ -423,22 +423,23 @@ edu_conteiner {
     position: relative;
     width: 100%;
     max-width: 1510px;
-    height: 1100px;
+    height: 925px;
     background: #112132;
     overflow: hidden;
 }
 
 .seryi_container {
     position: relative;
-    width: 393px;
-    height: 393px;
+    width: 400px;
+    height: 400px;
     background: #778798;
     transform: rotate(-45deg);
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 100px;
-    left: 550px;
+    top: 85px;
+    left: 515px;
+
 }
 
 .seryi_flex {
@@ -507,8 +508,8 @@ color: white;
 .bordo_container {
     
     transform: rotate(45deg);
-    left: 1000px;
-    top: 125px;
+    left: 975px;
+    top: 100px;
     position: absolute;
 }
 
@@ -520,52 +521,62 @@ color: white;
     left: 200px;
     overflow: hidden;
     transform: rotate(45deg);
-    top: -1800px;
-    left: 825px;
+    top: -1675px;
+    left: 855px;
+
+
 }
 .foto_teacher {
+    top: 30px;
     position: absolute;
-    transform: rotate(-45deg);
-    top: 0;
-
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.15);
 }
 .white_teacher {
     width: 30px;
     height: 30px;
     background-color: white;
+    border: 3px solid white;
 }
 .blue_teacher {
     width: 60px;
     height: 60px;
     background-color: #112132;
+    position: relative;
+    z-index: 1;
 }
 .container_cabinet {
     position: relative;
-    width: 615px;
-    height: 615px;
+    width: 600px;
+    height: 600px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -1000px;
-    left: 600px;
+    top: -775px;
+    left: 510px;
 }
 .cabinet_foto {
+    left: 250px;
+    top: -10px;
     position: absolute;
-    transform: rotate(45deg);
+    max-width: 100%;
+    transform: rotate(45deg) scale(1.3);
     
 }
 .container_cup {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -1125px;
-    left: 25px;
+    top: -1100px;
 
 }
 .cup_foto {
     position: absolute;
-    transform: rotate(45deg);
+    max-width: 100%;
+    transform: rotate(45deg) scale(1.42); 
+    left: -70px;
+    top: 25px;
 }
 .container_nature {
     position: relative;
@@ -573,25 +584,43 @@ color: white;
     height: 400px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: 25px;
+    top: 40px;
+    left: 240px;
 }
 .nature_foto {
     position: absolute;
-    transform: rotate(45deg);
+    max-width: 100%;
+    transform: rotate(45deg) scale(1.42); 
+}
+.kub_vkube_nature {
+    width: 80px;
+    height: 80px;
+    background-color: #112132;
+    border: 3px solid #112132;
+    position: absolute;
 }
 .container_student {
     position: relative;
-    width: 344px;
-    height: 344px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -350px;
-    left: 1100px;
+    top: -375px;
+    left: 1150px;
 }
-
+.kub_vkube_student {
+    width: 55px;
+    height: 55px;
+    background-color: #112132;
+    border: 3px solid #112132;
+    position: absolute;
+}
 .student_foto {
     position: absolute;
-    transform: rotate(45deg);
+    max-width: 100%;
+    transform: rotate(45deg) scale(1.1);
+    top: -70px;
+    left: -35px; 
 }
 .fon_slaider {
     position: relative;
