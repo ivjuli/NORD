@@ -354,7 +354,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 14px;
-text-decoration-line: underline;
+
 }
 .text_edu_2_2{
     font-family: 'Ubuntu', sans-serif;
@@ -362,18 +362,18 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 14px;
-text-decoration-line: underline;
+
 }
 .line_white {
     color: white;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
 a.line_white:hover {
-    border-bottom: 2px solid white;
-    transition-property: all;
-    transition-duration: 200ms;
+    text-decoration-line: underline;
+    
 }
+
 .rombik {
     position: relative;
     width: 11px;
