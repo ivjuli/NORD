@@ -101,7 +101,134 @@ letter-spacing: 0.1em;
     max-width: 1510px;
     background-color: yellow;
 }
+a {
+    color: #000000;
+}
 
+.romb_norv {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    transform: rotate(45deg);
+    background-color: #BACBDC;
+    border: 3px solid #000000;
+
+}
+.text_yaziki_romb {
+    position: absolute;
+
+    transform: rotate(-45deg);
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 25px;
+    margin-left: 25px;
+
+color: #FFFFFF;
+}
+.romb_islan {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+    top: -100px;
+}
+.foto_islan {
+    position: relative;
+    transform: rotate(-45deg);
+}
+
+.romb_shved {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 650px;
+    top: -100px;
+}
+.foto_shved {
+    position: relative;
+    transform: rotate(-45deg);
+}
+.romb_fin {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 800px;
+    top: -465px;
+}
+.foto_fin {
+    position: relative;
+    transform: rotate(-45deg);
+}
+.romb_dat {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 1150px;
+    top: -650px;
+}
+.foto_dat {
+    position: relative;
+    transform: rotate(-45deg);
+}
+.romb_bordo {
+    top: 200px;
+    left: 700px;
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    transform: rotate(45deg);
+    background-color: #432132;
+}
+.romb_setyi {
+    top: 200px;
+    left: 1000px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    background-color: #435465;
+}
+.romb_white {
+    width: 37px;
+    height: 37px;
+    transform: rotate(0deg);
+    background-color: white;
+}
+.romb_siniy {
+    width: 27px;
+    height: 27px;
+    transform: rotate(0deg);
+    background-color: #112132;
+}
 .container_yrovni {
     width: 100%;
     max-width: 1510px;
