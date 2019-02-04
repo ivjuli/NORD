@@ -214,11 +214,20 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     right: -206px;
     top: 95px;
 }
-kybiki_svser {
+.kybiki_svser {
+    width: 206px;
+    height: 206px;
+}
+.kybiki_svser1 {
     width: 25px;
     height: 25px;
-    background-color: rgba(0, 0, 0, 100);
+    background-color: #BACBDC;
 }
+.kybiki_svser2 {
+        width: 50px;
+        height: 50px;
+        background-image: url(../img/ocean.svg);
+    }
 .kub2_text {
     position: absolute;
     font-family: 'Ubuntu', sans-serif;
