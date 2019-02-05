@@ -420,7 +420,8 @@ margin-bottom: 30px;
     width: 100%;
     top: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #BACBDC;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.35),rgba(186, 203, 220, 0.65));
+    z-index: 4;
 }
 
 .rombiki_raspisanie {
@@ -474,42 +475,44 @@ margin-bottom: 30px;
     z-index: 2;
     top: -5px;
 }
-.rombiki_raspisanie4_1 {
-   
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 7px;
-    height: 7px;
-    background-color:white;
-}
 .rombiki_raspisanie5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     margin: 5px;
     transform: rotate(45deg);
-    width: 35px;
-    height: 35px;
-    background-color:#435465;
-    top: -5px;
+    width: 44px;
+    height: 44px;
+    background-color:white;
+    top: -15px;
     z-index: 2;
 }
 .rombiki_raspisanie5_1 {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 7px;
-    height: 7px;
-    background-color:white;
+    width: 35px;
+    height: 35px;
+ 
+    background-color:#435465;
 }
 .rombiki_raspisanie6 {
-    margin: 5px;
     transform: rotate(45deg);
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    top: -20px;
+}
+.rombiki_raspisanie6_1 {
+    position: absolute;
     width: 28px;
     height: 28px;
     background-color: #432132;
-    position: relative;
-    top: -5px;
-    z-index: 3;
+    z-index: 4;
 }
 .rombiki_raspisanie7 {
     margin: 5px;
@@ -519,19 +522,15 @@ margin-bottom: 30px;
         background-color:#778798;
         position: relative;
         z-index: 2;
-        top: -8px;
-}
-.rombiki_raspisanie7_1 {
-   
-    width: 7px;
-    height: 7px;
-    background-color:white;
+        top: -25px;
 }
 .rombiki_raspisanie8 {
+    position: relative;
      transform: rotate(45deg);
      width: 10px;
      height: 10px;
      background-color: #432132;
+     top: -15px;
 }
 .rombiki_raspisanie_text {
     position: relative;
@@ -539,7 +538,7 @@ display: flex;
 justify-content: space-between;
 align-items: flex-start;
 width: 250px;
-
+z-index: 4;
 }
 .data_raspisanie {
     display: flex;
