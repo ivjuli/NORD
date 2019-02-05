@@ -365,7 +365,7 @@ margin: 10px;
 .container_raspisanie {
     width: 100%;
     max-width: 1510px;
-    
+    height: 900px;    
     background-color:#112132;
  }
 .tex_raspisanie {
@@ -397,12 +397,13 @@ color: white;
     
 }
 .raspisanie {
+    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 452px;
-height: 266px;
-background: #C4C4C4;
+    width: 450px;
+    height: 270px;
+background: white;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -413,15 +414,24 @@ margin-left: 10px;
 margin-right: 10px;
 margin-top: 25px;
 margin-bottom: 30px;
-
 }
+.raspisanie_fon {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #BACBDC;
+}
+
 .rombiki_raspisanie {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .rombiki_raspisanie1 {
+    position: relative;
     margin: 15px;
     transform: rotate(45deg);
     width: 10px;
@@ -436,31 +446,33 @@ margin-bottom: 30px;
     height: 30px;
     background-color: #BACBDC;
 }
-.rombiki_raspisanie2_1 {
-    position: absolute;
-    
-    bottom: 0;
-    right: 0;
-    width: 7px;
-    height: 7px;
-    background-color:white;
-}
-
 .rombiki_raspisanie3 {
+    display: flex;
     margin: -5px;
     transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+}
+.rombiki_raspisanie3_1 {
     width: 7px;
     height: 7px;
     background-color:#432132;
+    
 }
-
 .rombiki_raspisanie4 {
     margin: 5px;
     transform: rotate(45deg);
     position: relative;
     width: 30px;
     height: 30px;
-    background-color:#432132;
+    background-color: #432132;
+    z-index: 2;
+    top: -5px;
 }
 .rombiki_raspisanie4_1 {
    
@@ -472,14 +484,19 @@ margin-bottom: 30px;
     background-color:white;
 }
 .rombiki_raspisanie5 {
+    position: relative;
     margin: 5px;
     transform: rotate(45deg);
     width: 35px;
     height: 35px;
     background-color:#435465;
+    top: -5px;
+    z-index: 2;
 }
 .rombiki_raspisanie5_1 {
-   
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 7px;
     height: 7px;
     background-color:white;
@@ -490,6 +507,9 @@ margin-bottom: 30px;
     width: 28px;
     height: 28px;
     background-color: #432132;
+    position: relative;
+    top: -5px;
+    z-index: 3;
 }
 .rombiki_raspisanie7 {
     margin: 5px;
@@ -497,6 +517,9 @@ margin-bottom: 30px;
         width: 22px;
         height: 22px;
         background-color:#778798;
+        position: relative;
+        z-index: 2;
+        top: -8px;
 }
 .rombiki_raspisanie7_1 {
    
@@ -505,18 +528,98 @@ margin-bottom: 30px;
     background-color:white;
 }
 .rombiki_raspisanie8 {
-    margin: 5px;
-    transform: rotate(45deg);
-        width: 10px;
-        height: 10px;
-        background-color: #432132;
+     transform: rotate(45deg);
+     width: 10px;
+     height: 10px;
+     background-color: #432132;
 }
+.rombiki_raspisanie_text {
+    position: relative;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+width: 250px;
 
-
-
-.flex_zapis1 {
+}
+.data_raspisanie {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50px;
+    height: 125px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.yrok_raspisanie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 200px;
+    height: 125px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+}
+.rombiki_raspisanie_mesiac {
+position: relative;
+top: -45px;
+right: -10px;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: right;
+text-decoration-line: underline;
+}
+.flex_zapisi {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.flex_zapis{
+position: relative;
+bottom: -125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 color: white;
+width: 210px;
+height: 65px;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.flex_zapis_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+}
+.left {
+position: absolute;
+left:0;
+}
+.right {
+    position: absolute;
+    right:0;
 }
 .footer {
     position: relative;
@@ -542,16 +645,39 @@ font-size: 18px;
     transform: rotate(45deg);
     background-color: #BA9898;
 } 
-.flex_text_footer {
+.romb_footer_logo {
     display: flex;
+    align-items: center;
+    width: 450px;
+    left: 75px;
+    top: 75px;
+    position: relative;
+}
+.flex_text_footer {
+    width: 70%;
+    display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   position: relative;
+   right: -300px;
+   top: -100px;
+   
+   
+}
+.tex_foter {
     color: white;
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 25px;
 font-size: 18px;
+margin-left: 35px;
 }
- 
+.footer_tex {
+    position: relative;
+    left: 135px;
+    top: 75px;
+}
 
 @media (max-width: 1600px) and (min-width: 1450px) {
     .yrovni {width: 450px;}
