@@ -4,6 +4,7 @@
     max-width: 1510px;
     overflow: hidden;
     background-color: white;
+    margin: auto;
           
 }
 .contacts {
@@ -956,6 +957,9 @@ color: #000000;
     }
 
 }
+
+
+
 
 @media (max-width: 675px) {
     .contacts_text {
