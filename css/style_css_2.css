@@ -291,8 +291,8 @@ margin-top: 15px;
     max-width: 1510px;  
     min-height: 850px;
     height: 1px;
-    background-image: url(../img/img_foto_gradient_foto.png);
-    
+    background: linear-gradient(181.22deg, #FFFFFF 1.81%, rgba(255, 255, 255, 0.91) 9.04%, rgba(255, 255, 255, 0.41) 31.96%, rgba(160, 166, 173, 0.646) 37.7%, #112132 98.19%), 
+    url(../img/img_foto_fon.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
