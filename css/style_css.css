@@ -711,6 +711,14 @@ color: white;
     justify-content: space-between;
 
 }
+.rombik_border {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    transform: rotate(45deg);
+    border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
 .container_slaider {
     display: flex;
     justify-content: center;
@@ -844,7 +852,7 @@ color: white;
     max-width: 1510px;  
     min-height: 340px;
     height: 1px;
-    background-image: url(../img/map_metka.png);
+    background-image: url(../img/map.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -860,8 +868,37 @@ color: white;
     background: rgba(0, 0, 0, 0.4);
     background-size: cover;
 }
+.footer_logo {
+    position: relative;
+    z-index: 2;
+    font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 32px;
+font-size: 24px;
+letter-spacing: 0.1em;
+color: #000000;
+}
+.footer_metka {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 70px;
+    left: 370px;
+}
 
-
+.metka {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kryg {
+    position: absolute;
+    top: 44px;
+}
 
 @media (max-width: 1600px) and (min-width: 1450px) {
    
