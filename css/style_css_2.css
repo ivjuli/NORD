@@ -542,29 +542,15 @@ margin-bottom: 30px;
 display: flex;
 justify-content: space-between;
 align-items: flex-start;
-width: 250px;
+width: 300px;
 z-index: 4;
-}
-.data_raspisanie {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 50px;
-    height: 125px;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 14px;
-    margin-right: 20px;
 }
 .yrok_raspisanie {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 200px;
+    width: 300px;
     height: 125px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -575,7 +561,6 @@ z-index: 4;
 .rombiki_raspisanie_mesiac {
 position: relative;
 top: -45px;
-right: -10px;
 font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -691,22 +676,33 @@ margin-left: 35px;
 @media (max-width: 1450px) and (min-width: 1300px) {
     .yrovni {width: 400px;}
     .raspisanie {width: 400px;}
+    .flex_zapis {
+        width: 175px;
+    }
 }
+
 
 @media (max-width: 1300px) and (min-width: 1200px) {
     .yrovni {width: 350px;}
     .raspisanie {width: 350px;}
+    .flex_zapis {
+    width: 165px;
+}
 
 }
+
 @media (max-width: 1200px) and (min-width: 1000px) {
     .yrovni {width: 300px;}
     .raspisanie {width: 300px;}
+    .flex_zapis {        width: 145px;    }
 }
+
 
 @media (max-width: 1000px) and (min-width: 850px) {
     .yrovni {width: 400px;}
     .raspisanie {width: 400px;}
 } 
+
 
 @media (max-width: 850px) and (min-width: 700px) {
     .yrovni {width: 650px;}
