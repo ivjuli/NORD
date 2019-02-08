@@ -1,7 +1,7 @@
 .wrapper {
     position: relative;
     width: 100%;
-    max-width: 1510px;
+    max-width: 360px;
     overflow: hidden;
     background-color: white;
     margin: auto;
@@ -13,10 +13,10 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1510px;
-    height: 50px;
+    max-width: 360px;
+    height: 519px;;
     color: black;
-    background-color: white;
+    background-image: url(../img/img_fon_header_adaptiv.png);
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
@@ -54,7 +54,21 @@
     color: black;
     padding-left: 30px;
 }
-
+button {
+    margin-top: 25px;
+    background-color:  #BA9898;
+    width: 210px;
+    height: 45px;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 31px;
+font-size: 18px;
+text-align: center;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 .menu {
     max-width: 1510px;
     height: 125px;
@@ -65,9 +79,7 @@
     line-height: normal;
     font-size: 18px;
     padding-left: 50px;
-    
 }
-
 .menu_tab {
     display: table;
     width: 40%;
@@ -93,228 +105,17 @@ a.line:hover {
     transition-property: all;
     transition-duration: 200ms;
 }
-
-.kyb_fon_white {
-    width: 600px;
-    height: 600px;
-    transform: rotate(45deg);
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    left: 125px;
-    top: -550px;
-}
-.kyb_fon_white2 {
-    width: 600px;
-    height: 600px;
-    transform: rotate(45deg);
-    background-color: white;
-    position: relative;
-    z-index: 1;
-    left: 1225px;
-    top: -1125px;
-
-}
-.conteiner_kybi {
-    width: 1000px;
-    height: 1000px;
-    transform: rotate(45deg);
-    position: relative;
-    z-index: 3;
-    right: 0;
-    left: 100px;
-    top: 150px;
-      
-}
-.kub_white {
-    position: absolute;
-    z-index: 1;
-    width: 450px;
-    height: 450px;
-    left: 20%;
-    top: 450px;
-    z-index: 2;
-}
-kub1 {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: relative;
-    width: 600px;
-    height: 600px;   
-}
-
-.kub1_bordo {
-    position: absolute;
-    height: 450px;
-    width: 450px;
-    background-color: #BA9898;
-    transform: rotate(0deg);
-    top: 0;
-}
-.kub1_seryi {
-    position: absolute;    
-    width: 36px;
-    height: 36px;
-    background: #435465;
-    }
-.kub1_belyi {
-    position: absolute;    
-    width: 75px;
-    height: 75px;
-    top: -2px;
-    left: -2px;
-    background: white;
-}
-.bordo_flex {
-    width: 480px;
-    height: 480px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.kub1_bordo_text {
-    transform: rotate(-45deg);
-    font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: 31px;
-font-size: 18px;
-text-align: center;
-margin-top: -25px;
-}
-
-button {
-    margin-top: 25px;
-    background-color:  #BA9898;
-    width: 210px;
-    height: 45px;
-    font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: 31px;
-font-size: 18px;
-text-align: center;
-border: 1px solid #000000;
-box-sizing: border-box;
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-.kub2_svser {
-    position: absolute; 
-    height: 206px;
-    width: 206px;
-    background-color: #BACBDC;
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-    right: -206px;
-    top: 95px;
-}
-.kybiki_svser {
-    width: 206px;
-    height: 206px;
-}
-.kybiki_svser1 {
-    width: 25px;
-    height: 25px;
-    background-color: #BACBDC;
-}
-.kybiki_svser2 {
-        width: 50px;
-        height: 50px;
-        background-image: url(../img/ocean.svg);
-    }
-.kub2_text {
-    position: absolute;
-    font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 18px;
-text-align: center;
-transform: rotate(-45deg);
-display: flex;
-flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 137px;
-    height: 213px;
-}
-.kub_foto_girl {
-    position: relative;
-    width: 620px;
-    height: 620px;
-    overflow: hidden;
-    left: 700px;
-    z-index: 1;
-    margin-right: 50px;
-    margin-bottom: 300px;
-    margin-top: -350px;
-    margin-left: -265px;
-}
-
-.foro_girl {
-    position: absolute;
-    transform: rotate(-45deg);
-    top: -55px;
-    left: -125px;
-
-}
-
-.kub3_svser {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    transform: rotate(0deg);
-    background: #BACBDC;
-
-}
-.kub4 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-   
-}
-.kub_foto_house {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    background: #F1F1F1;
-    overflow: hidden;
-   
-}
-.foto_house{
-    position: absolute;
-    transform: rotate(-45deg);
-    top: -35px;
-    left: -60px;
-
-}
-.container_rovno_fon {
-    width: 100%;
-    max-width: 1510px;
-    height: 1px;
-    position: relative;
-    background-color: yellowgreen;
-}
 .education2 {
         background-image: url(../img/img_sea_background.png);
         width: 100%;
-        max-width: 1510px;
+        max-width: 360px;
         color: white;
-        position: absolute;
-        top: -1450px;
+        position: relative;
         bottom: 0;
         background-repeat: no-repeat;
     background-size: 100%;
    overflow: hidden;
 }
-
 .edu_center {
     display: flex;
     flex-direction: column;
@@ -325,7 +126,6 @@ flex-direction: column;
     position: relative;
     z-index: 3;
 }
-
 .logo2_2 {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -345,9 +145,7 @@ flex-direction: column;
     margin-top: 2%;
     position: relative;
     z-index: 2;
-
 }
-
 .education2_1 {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
@@ -364,7 +162,6 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 14px;
-
 }
 .text_edu_2_2{
     font-family: 'Ubuntu', sans-serif;
@@ -372,18 +169,14 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 14px;
-
 }
 .line_white {
     color: white;
     text-decoration-line: none;
 }
-
 a.line_white:hover {
     text-decoration-line: underline;
-    
 }
-
 .rombik {
     position: relative;
     width: 11px;
@@ -401,7 +194,6 @@ a.line_white:hover {
     padding: 4%;
     margin: 1%;
 }
-
 .education2_3 {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
@@ -419,25 +211,14 @@ a.line_white:hover {
 .ar {
     margin-left: 5px;
 }
-
-edu_conteiner {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    z-index: 2;
-    padding: 5px;
-}
 .advanteges {
     position: relative;
     width: 100%;
-    max-width: 1510px;
+    max-width: 360px;
     height: 925px;
     background: #112132;
     overflow: hidden;
 }
-
 .seryi_container {
     position: relative;
     width: 400px;
