@@ -639,10 +639,10 @@ color: white;
     flex-direction: column;
     align-items: center;
     width: 100%;  
-    max-width: 1510px;  
-    min-height: 670px;
+    max-width: 360px;  
+    min-height: 495px;
     height: 1px;
-    background-image: url(../img/img_sea_background.png);
+    background-image: url(../img/img_backgound_adaptiv.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -669,7 +669,6 @@ color: white;
     rgba(16, 16, 16, 0) 54.14%, rgba(16, 16, 16, 0) 54.15%, 
     rgba(2, 2, 2, 0.6) 100%); 
     background-size: contain;   
-   
 }
 .text_padding {
     padding: 50px;
@@ -680,10 +679,8 @@ color: white;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
-font-size: 24px;
-text-align: center;
-            
-            
+font-size: 14px;
+text-align: center;                 
 }
 
 .slaider {
@@ -691,25 +688,28 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 930px;
-    height: 335px;
+    width: 280px;
+    height: 210px;
     background: rgba(0, 0, 0, 0.4);
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
-line-height: 25px;
-font-size: 18px;
-text-align: center;
+line-height: 17px;
+font-size: 12px;
+
 color: white;
 }
 .slaider_text {
-    width: 690px;
-    height: 125px;
+    width: 218px;
+height: 154px;
   
 }
 .rombik_flex {
-    width: 20%;
+    z-index: 2;
+    top: 200px;
+    width: 35%;
     display: flex;
     justify-content: space-between;
+    position: relative;
 
 }
 .rombik_border {
@@ -730,7 +730,7 @@ box-sizing: border-box;
 }
 .container_strelka {
     position: absolute;
-    width: 850px;
+    width: 340px;
     height: 35px;
     display: flex;
     align-items: center;
@@ -751,10 +751,10 @@ box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 100%;    
-    min-height: 617px;
-    height: 1px;
-    background-image: url(../img/footer.png);
+    width: 100%;  
+    max-width: 360px;   
+    height: 480px;
+    background-image: url(../img/img_footer_adaptiv.png);
     background-repeat: no-repeat;
     background-size: cover;
        
@@ -762,6 +762,7 @@ box-sizing: border-box;
 }
 .about {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     position: absolute;
     width: 100%; 
@@ -783,7 +784,7 @@ box-sizing: border-box;
 
 }
 .ikonki {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
@@ -850,10 +851,10 @@ color: white;
     position: relative;
    
     width: 100%;  
-    max-width: 1510px;  
+    max-width: 360px;  
     min-height: 340px;
     height: 1px;
-    background-image: url(../img/map.png);
+    background-image: url(../img/img_map_adaptiv.png);
     background-repeat: no-repeat;
     background-size: cover;
     
