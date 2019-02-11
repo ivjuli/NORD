@@ -423,16 +423,6 @@ a.line_white:hover {
 .ar {
     margin-left: 5px;
 }
-
-edu_conteiner {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    z-index: 2;
-    padding: 5px;
-}
 .advanteges {
     position: relative;
     width: 100%;
@@ -455,14 +445,12 @@ edu_conteiner {
     left: 515px;
 
 }
-
 .seryi_flex {
     position: absolute;
     transform: rotate(45deg);
     width: 303px;
     height: 303px; 
 }
-
 .kub3a_seryi {
     display: flex;
     flex-direction: column;
@@ -471,7 +459,6 @@ edu_conteiner {
     width: 303px;
     height: 303px; 
 }
-
 .tex_kub_seryi {
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
@@ -480,7 +467,6 @@ line-height: 25px;
 font-size: 18px;
 text-align: center;
 color: white;
-
 }
 .kub3a_bordo {
     position: relative;
@@ -517,7 +503,6 @@ text-align: center;
 position: relative;
 margin-top: 5px;
 color: white;
-    
 }
 .bordo_container {
     
@@ -526,7 +511,6 @@ color: white;
     top: 100px;
     position: absolute;
 }
-
 .container_teacher {
     width: 228px;
     height: 228px;
@@ -537,8 +521,6 @@ color: white;
     transform: rotate(45deg);
     top: -1675px;
     left: 855px;
-
-
 }
 .foto_teacher {
     top: 30px;
@@ -685,9 +667,7 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 24px;
-text-align: center;
-            
-            
+text-align: center;   
 }
 
 .slaider {
@@ -775,19 +755,19 @@ box-sizing: border-box;
 .about1 {
     display: flex;
     align-items: center;
-    height: 90px;
+    height: 95px;
 
 }
 .about2 {
     display: flex;
-    height: 90px;
+    height: 95px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 
 }
 .ikonki {
-    width: 100%;
+    width: 175px;
     display: flex;
     justify-content: space-between;
     align-content: space-between;
@@ -800,16 +780,18 @@ box-sizing: border-box;
 }
 
 .text_about2 {
-    font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 color: white;
-
+}
+.text_pad {
+padding-top: 5px;
 }
 
 .about3 {
-    height: 90px;
+    height: 95px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: normal;
