@@ -352,7 +352,7 @@ flex-direction: column;
 
 }
 
-.education2_1 {
+.education_blok {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
     height: 275px;
@@ -362,21 +362,20 @@ flex-direction: column;
     padding: 4%;
     margin: 1%;
 }
-.text_edu_2_1 {
-    font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 14px;
 
+.kegl_b {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 18px;
 }
-.text_edu_2_2{
+.kegl_m {
     font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 14px;
-
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
 }
 .line_white {
     color: white;
@@ -395,17 +394,6 @@ a.line_white:hover {
     background: #FFFFFF;
     transform: rotate(45deg);
 }
-.education2_2 {
-    background: rgba(0, 0, 0, 0.4);
-    width: 450px;
-    height: 275px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 4%;
-    margin: 1%;
-}
-
 .education2_3 {
     background: rgba(0, 0, 0, 0.4);
     width: 450px;
