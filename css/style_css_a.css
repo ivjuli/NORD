@@ -2,38 +2,96 @@
     position: relative;
     width: 100%;
     max-width: 360px;
+    height: 2000px;
     overflow: hidden;
     background-color: white;
     margin: auto;
           
 }
 .contacts {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    position: relative;
+     width: 100%;
     max-width: 360px;
-    height: 519px;;
+    height: 420px;
     color: black;
     background-image: url(../img/img_fon_header_adaptiv.png);
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
     font-size: 24px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    
+    overflow: hidden;
+    color:  white;
+}
+.gradient_contact {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.4); 
+        background-size: contain;
 
 }
-
-.contacts_text {
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: space-between;
+.kegl_13 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 13px; 
+}
+.kegl_m {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px; 
+}
+.menu {
+    position: relative;
+    z-index: 3;
+    width: 26px;
+    height: 10px;
+}
+.menu_line{ 
+    width: 26px;
+height: 2px;
+color: white;
+margin-top: 5px;
+}
+.romb {
+    position: relative;
+    z-index: 3;
+    width: 250px;
+    height: 250px;
+    background:  #BACBDC;
+    transform: rotate(45deg);
+    margin-top: -150px;
+    margin-left: 65px;
+    position: absolute;
+}
+.logo_logo {
+    position: relative;
+    z-index: 4;
+    font-family: 'Puritan', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+        color: black;
+        
+    }
+.logo_contacts {
+    width: 100%;
+    max-width: 360px;
     
+    position: relative;
+    height: 175px;
 }
 
 .logo {
@@ -43,68 +101,53 @@
     padding-top: 100px;
     margin-left: 50px;
 }
+.text_main {
+    position: relative;
+    z-index: 3;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 21px;
+font-size: 12px;
+text-align: center;
 
-.logo_logo {
-    font-family: 'Puritan', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 48px;
-    letter-spacing: 0.1em;
-    color: black;
-    padding-left: 30px;
 }
-button {
+.text_maim_pad {
+    margin-bottom: 15px;
+}
+.text_maim_line {
+    line-height: 30px;
+}
+.rombik_m {
+
+        position: relative;
+        width: 8px;
+        height: 8px;
+        background: #FFFFFF;
+        transform: rotate(45deg);
+
+}
+.button {
+    position: relative;
+    z-index: 3;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 25px;
-    background-color:  #BA9898;
-    width: 210px;
+   width: 150px;
     height: 45px;
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
-line-height: 31px;
-font-size: 18px;
+font-size: 12px;
 text-align: center;
-border: 1px solid #000000;
+border: 1px solid #FFFFFF;
 box-sizing: border-box;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-.menu {
-    max-width: 1510px;
-    height: 125px;
-    display: flex;
-    background-color:white;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    line-height: normal;
-    font-size: 18px;
-    padding-left: 50px;
-}
-.menu_tab {
-    display: table;
-    width: 40%;
-    padding-top: 5%;
-    margin: 0;
-    padding-left: 0;
-}
-.it_left {
-    display: table-cell;
-    text-align: left;
-}
-.it {
-    display: table-cell;
-    text-align: center;
-}
-.line {
-text-decoration: none;
-color: #000000;
-}
 
-a.line:hover {
-    border-top: 2px solid black;
-    transition-property: all;
-    transition-duration: 200ms;
-}
+
 .education2 {
         background-image: url(../img/img_sea_background.png);
         width: 100%;
@@ -122,7 +165,6 @@ a.line:hover {
     justify-content: center;
     align-items: center;
     margin-top: 475px;
-    padding-bottom: 10px;
     position: relative;
     z-index: 3;
 }
@@ -131,13 +173,14 @@ a.line:hover {
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 24px;
+    font-size: 12px;
     color: white;
     padding: 30px;
 }
 .education2_0 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-left: 2%;
     margin-right: 2%;
@@ -146,36 +189,22 @@ a.line:hover {
     position: relative;
     z-index: 2;
 }
-.education2_1 {
+.education_blok {
     background: rgba(0, 0, 0, 0.4);
-    width: 450px;
-    height: 275px;
+    width: 300px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 4%;
-    margin: 1%;
+    padding: 7%;
+    margin: 3%;
 }
-.text_edu_2_1 {
+.kegl_b {
     font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 14px;
-}
-.text_edu_2_2{
-    font-family: 'Ubuntu', sans-serif;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 14px;
-}
-.line_white {
-    color: white;
-    text-decoration-line: none;
-}
-a.line_white:hover {
-    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
 }
 .rombik {
     position: relative;
@@ -184,26 +213,16 @@ a.line_white:hover {
     background: #FFFFFF;
     transform: rotate(45deg);
 }
-.education2_2 {
-    background: rgba(0, 0, 0, 0.4);
-    width: 450px;
-    height: 275px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 4%;
-    margin: 1%;
-}
 .education2_3 {
     background: rgba(0, 0, 0, 0.4);
-    width: 450px;
-    height: 275px;
+    width: 300px;
+    height: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 4%;
-    padding-bottom: 7%;
-    margin: 1%;
+    padding: 7%;
+    padding-bottom: 17%;
+    margin: 4%;
 }    
 .ballast {
     
@@ -228,8 +247,7 @@ a.line_white:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 85px;
-    left: 515px;
+    
 
 }
 
@@ -299,42 +317,7 @@ color: white;
 .bordo_container {
     
     transform: rotate(45deg);
-    left: 975px;
-    top: 100px;
     position: absolute;
-}
-
-.container_teacher {
-    width: 228px;
-    height: 228px;
-    position: relative;
-    bottom: 100px;
-    left: 200px;
-    overflow: hidden;
-    transform: rotate(45deg);
-    top: -1675px;
-    left: 855px;
-
-
-}
-.foto_teacher {
-    top: 30px;
-    position: absolute;
-    max-width: 100%;
-    transform: rotate(-45deg) scale(1.15);
-}
-.white_teacher {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border: 3px solid white;
-}
-.blue_teacher {
-    width: 60px;
-    height: 60px;
-    background-color: #112132;
-    position: relative;
-    z-index: 1;
 }
 .container_cabinet {
     position: relative;
@@ -342,47 +325,15 @@ color: white;
     height: 600px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -775px;
-    left: 510px;
 }
 .cabinet_foto {
-    left: 250px;
-    top: -10px;
+    
     position: absolute;
     max-width: 100%;
     transform: rotate(45deg) scale(1.3);
     
 }
-.container_cup {
-    position: relative;
-    width: 450px;
-    height: 450px;
-    overflow: hidden;
-    transform: rotate(-45deg);
-    top: -1100px;
 
-}
-.cup_foto {
-    position: absolute;
-    max-width: 100%;
-    transform: rotate(45deg) scale(1.42); 
-    left: -70px;
-    top: 25px;
-}
-.container_nature {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-    transform: rotate(-45deg);
-    top: 40px;
-    left: 240px;
-}
-.nature_foto {
-    position: absolute;
-    max-width: 100%;
-    transform: rotate(45deg) scale(1.42); 
-}
 .kub_vkube_nature {
     width: 80px;
     height: 80px;
@@ -396,8 +347,7 @@ color: white;
     height: 250px;
     overflow: hidden;
     transform: rotate(-45deg);
-    top: -375px;
-    left: 1150px;
+    
 }
 .kub_vkube_student {
     width: 55px;
@@ -410,8 +360,7 @@ color: white;
     position: absolute;
     max-width: 100%;
     transform: rotate(45deg) scale(1.1);
-    top: -70px;
-    left: -35px; 
+    
 }
 .fon_slaider {
     position: relative;
