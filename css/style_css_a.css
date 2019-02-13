@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     max-width: 360px;
-    height: 2000px;
+    height: 100%;
     overflow: hidden;
     background-color: white;
     margin: auto;
@@ -36,6 +36,15 @@
         background-size: contain;
 
 }
+.contacts_text {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right: 10px;
+    top: -45px;
+}
 .kegl_13 {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -50,28 +59,38 @@
     line-height: normal;
     font-size: 12px; 
 }
+
+.line_white {
+    color: white;
+    text-decoration-line: none;
+}
+
+a.line_white:hover {
+    text-decoration-line: underline;
+    
+}
 .menu {
     position: relative;
     z-index: 3;
     width: 26px;
     height: 10px;
-}
-.menu_line{ 
-    width: 26px;
-height: 2px;
-color: white;
-margin-top: 5px;
+    left: 2px;
+    top: -45px;
 }
 .romb {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 3;
-    width: 250px;
-    height: 250px;
+    width: 135px;
+    height: 135px;
     background:  #BACBDC;
     transform: rotate(45deg);
-    margin-top: -150px;
-    margin-left: 65px;
-    position: absolute;
+    margin-top: -75px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .logo_logo {
     position: relative;
@@ -96,10 +115,10 @@ margin-top: 5px;
 
 .logo {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: white;
-    padding-top: 100px;
-    margin-left: 50px;
+    padding-top: 75px;
+    transform: rotate(-45deg);
 }
 .text_main {
     position: relative;
@@ -110,13 +129,19 @@ font-weight: normal;
 line-height: 21px;
 font-size: 12px;
 text-align: center;
+top: 20px;
 
 }
 .text_maim_pad {
     margin-bottom: 15px;
 }
 .text_maim_line {
-    line-height: 30px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
 }
 .rombik_m {
 
@@ -128,6 +153,7 @@ text-align: center;
 
 }
 .button {
+    top: 10px;
     position: relative;
     z-index: 3;
     margin: auto;
@@ -156,7 +182,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
         position: relative;
         bottom: 0;
         background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
    overflow: hidden;
 }
 .edu_center {
@@ -164,7 +190,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 475px;
+    margin-top: 35px;
     position: relative;
     z-index: 3;
 }
@@ -234,15 +260,24 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     width: 100%;
     max-width: 360px;
-    height: 925px;
+    height: 600px;
     background: #112132;
     overflow: hidden;
 }
+.advanteges_rovno {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+}
 .seryi_container {
     position: relative;
-    width: 400px;
-    height: 400px;
-    background: #778798;
+    top: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 220px;
+    background: #435465;
     transform: rotate(-45deg);
     display: flex;
     justify-content: center;
@@ -250,44 +285,88 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 
 }
-
+.kubik_ser_b {
+    position: absolute;
+    width: 45px;
+    height: 45px; 
+    background: #112132;
+    top: 0;
+    right: 0;
+}
+.kubik_ser {
+    position: absolute;
+    width: 24px;
+    height: 24px; 
+    background: #BA9898;
+    top: 0;
+    right: 0;
+}
+.kubik_ser_bor {
+    position: absolute;
+    width: 33px;
+    height: 33px; 
+    background: #432132;
+    left: 7px;
+    top: 7px;
+}
 .seryi_flex {
     position: absolute;
     transform: rotate(45deg);
-    width: 303px;
-    height: 303px; 
+    width: 220px;
+    height: 220px; 
 }
 
 .kub3a_seryi {
+    position: relative;
+    top: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 303px;
-    height: 303px; 
+    width: 220px;
+    height: 150px; 
 }
 
 .tex_kub_seryi {
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
-line-height: 25px;
-font-size: 18px;
+line-height: 17px;
+font-size: 12px;
 text-align: center;
 color: white;
 
 }
-.kub3a_bordo {
-    position: relative;
+.bordo_container {
+    
     background-color: #432132;
-    width: 310px;
-    height: 310px; 
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -175px;
+    width: 145px;
+    height: 145px; 
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.kub3a_bordo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 145px;
 
 }
 .kub_v_kube {
     position: absolute;
-    width: 310px;
-    height: 310px;
+    width: 150px;
+    height: 150px;
+    top: 15px;
+    left: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -296,35 +375,49 @@ color: white;
 }
 .kubik_vbordo {
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 20px;
+    height: 20px;
     transform: rotate(0deg);
     background: #435465;
-    margin: 5%;
+   
+}
+.kubik_vbordo_b {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+    background: #112132;
+    
 }
 .logo_vkube3a {
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
-font-size: 24px;
+font-size: 14px;
 text-align: center;
 position: relative;
-margin-top: 5px;
+padding: 20px;
 color: white;
     
 }
-.bordo_container {
-    
-    transform: rotate(45deg);
-    position: absolute;
+.container_student_cabinet {
+    position: relative;
+    top: -190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .container_cabinet {
+    display: flex;
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 105px;
+    height: 105px;
     overflow: hidden;
     transform: rotate(-45deg);
+    margin-left: -200px;
 }
 .cabinet_foto {
     
@@ -342,11 +435,12 @@ color: white;
     position: absolute;
 }
 .container_student {
-    position: relative;
-    width: 250px;
-    height: 250px;
+    position: absolute;
+    width: 105px;
+    height: 105px;
     overflow: hidden;
     transform: rotate(-45deg);
+    margin-left: 100px;
     
 }
 .kub_vkube_student {
@@ -357,9 +451,10 @@ color: white;
     position: absolute;
 }
 .student_foto {
+    left: -175px;
+    top: 90px;
     position: absolute;
-    max-width: 100%;
-    transform: rotate(45deg) scale(1.1);
+    transform: rotate(45deg) scale(0.8);
     
 }
 .fon_slaider {
@@ -378,12 +473,13 @@ color: white;
 }
 .slaider_index {
     position: absolute;
+    top: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     z-index: 2;
-    padding: 5px;
+  
 }
 .gradient_slaider {
     position: absolute;
@@ -401,10 +497,11 @@ color: white;
     background-size: contain;   
 }
 .text_padding {
-    padding: 50px;
+    padding: 30px;
     color: white;
 }
 .education4 {
+    position: relative;
     font-family: 'Ubuntu', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -434,9 +531,10 @@ height: 154px;
   
 }
 .rombik_flex {
+    position: relative;
     z-index: 2;
-    top: 200px;
-    width: 35%;
+    top:175px;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -451,11 +549,13 @@ height: 154px;
 box-sizing: border-box;
 }
 .container_slaider {
+    position: relative;
+    top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 930px;
+    width: 360px;
     
 }
 .container_strelka {
@@ -469,10 +569,11 @@ box-sizing: border-box;
    
 .text_bold {
     font-weight: bold;
-    margin: 20px;
 }
 .text_normal {
     font-weight: normal;
+    margin-top: 20px;
+    line-height: 20px;
 }
 
 .container_about {
@@ -626,216 +727,4 @@ color: #000000;
 .kryg {
     position: absolute;
     top: 44px;
-}
-
-@media (max-width: 1600px) and (min-width: 1450px) {
-   
-}
-
-@media (max-width: 1300px) and (min-width: 1125px) {
-    .contacts_text {width: 45%;}
-}
-
-@media (max-width: 1125px) and (min-width: 1000px) {
-    .contacts_text {width: 50%;}
-}
-
-@media (max-width: 1100px) and (min-width: 875px) {
-    .contacts_text {width: 55%;}
-}
-
-@media (max-width: 875px) and (min-width: 675px) {
-    .contacts_text {
-        width: 75%;
-        margin: 30px;
-    }
-        
-    .contacts {
-        flex-direction: column;
-    }
-    .logo {
-        display: flex;
-        justify-content: center;
-        padding-left: 0;
-    }
-    .about {
-        width: 98%;
-    }
-
-    .text_about2 {
-        font-size: 12px;
-    }
-    .about3 {
-        font-size: 12px;
-    }
-    .text_about { padding-left: 10px; 
-    }
-
-    .slaider {
-        width: 600px;
-        font-size: 16px;
-        }
-       .container_strelka {
-        width: 550px;
-       }
-       .slaider_text {
-        width: 450px;
-        height: 120px;
-    }
-
-}
-
-
-
-
-@media (max-width: 675px) {
-    .contacts_text {
-        width: 100%;
-        margin: 20px;
-    }
-        
-    .contacts {
-        flex-direction: column;
-        font-size: 22px;
-    }
-    .menu_tab {
-        width: 100%;
-        
-    }
-    .menu {
-        padding-left: 0;
-        font-size: 14px;
-    }
-    .logo {
-        display: flex;
-        justify-content: center;
-        padding-left: 0;
-    }
-    .it_left {
-        text-align: center;
-
-    }
-    .about {
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 10%;
-    }
-    .about2 {
-        margin: 5%;
-    }
-    .about3 {
-        text-align: center;
-        margin: 3%;
-    }
-    
-    .education2_0 {
-    flex-direction: column;
-}
-
-.slaider {
-    width: 450px;
-    font-size: 12px;
-    }
-   .container_strelka {
-    width: 375px;
-   }
-   .slaider_text {
-    width: 300px;
-    height: 125px;
-  }
-  .education4 {
-   font-size: 20px;
-}
-fon_slaider {
-    background-image: none;
-    background-color: #112132;
-}
-container_about {
-        background-image: none;
-        background-color:  #432132;
-    }
-
-}
-
-@media (max-width: 1000px) and (min-width: 675px) {
-    .menu_tab {
-        width: 100%;
-        }    
-}
-
-@media (max-width: 445px) {
-        .contacts_text {
-            width: 100%;
-            margin: 20px;
-        }
-            
-        .contacts {
-            flex-direction: column;
-            font-size: 14px;
-        }
-        .menu_tab {
-            width: 100%;
-            
-        }
-        .menu {
-            padding-left: 0;
-            font-size: 10px;
-        }
-        .logo {
-            display: flex;
-            justify-content: center;
-            padding-left: 0;
-        }
-        .it_left {
-            text-align: center;
-    
-        }
-        
-        .slaider {
-            width: 300px;
-            font-size: 10px;
-            }
-           .container_strelka {
-            width: 275px;
-           }
-           .slaider_text {
-            width: 250px;
-            height: 150px;
-          }
-          .education4 {
-           font-size: 16px;
-        }
-    .fon_slaider {
-            background-image: none;
-            background-color: #112132;
-        }
-    .footer {
-        background-image: none;
-    }
-    .container_about {
-        background-image: none;
-        background-color:  #432132;
-    }
-}
-
-    @media (max-width: 1000px) and (min-width: 875px) {
-        .about {
-            width: 97%
-        }
-        .text_about {
-            padding-left: 15px;
-        }
-
-        .slaider {
-        width: 800px;
-        }
-       .container_strelka {
-        width: 700px;
-       }
-       .slaider_text {
-        width: 550px;
-        height: 125px;      
-    }
 }
