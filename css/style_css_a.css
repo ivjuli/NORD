@@ -73,9 +73,9 @@ a.line_white:hover {
     position: relative;
     z-index: 3;
     width: 26px;
-    height: 10px;
-    left: 2px;
-    top: -45px;
+    height: 19px;
+    left: 25px;
+    top: -30px;
 }
 .romb {
     position: relative;
@@ -290,8 +290,8 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 45px;
     height: 45px; 
     background: #112132;
-    top: 0;
-    right: 0;
+    top: -1px;
+    right: -1px;
 }
 .kubik_ser {
     position: absolute;
@@ -405,7 +405,7 @@ color: white;
 }
 .container_student_cabinet {
     position: relative;
-    top: -190px;
+    top: -185px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -421,9 +421,11 @@ color: white;
 }
 .cabinet_foto {
     
+    top: -150px;
+    left: -50px;
     position: absolute;
     max-width: 100%;
-    transform: rotate(45deg) scale(1.3);
+    transform: rotate(45deg) scale(0.48);
     
 }
 
@@ -451,10 +453,10 @@ color: white;
     position: absolute;
 }
 .student_foto {
-    left: -175px;
-    top: 90px;
+    left: -125px;
+    top: -115px;
     position: absolute;
-    transform: rotate(45deg) scale(0.8);
+    transform: rotate(45deg) scale(0.47);
     
 }
 .fon_slaider {
@@ -582,7 +584,7 @@ box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 100%;  
+    width: 100%; 
     max-width: 360px;   
     height: 480px;
     background-image: url(../img/img_footer_adaptiv.png);
