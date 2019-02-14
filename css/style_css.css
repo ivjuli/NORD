@@ -595,8 +595,11 @@ color: white;
 .kub_vkube_student {
     width: 55px;
     height: 55px;
+    top: 0;
+    left: 0;
+    z-index:4;
     background-color: #112132;
-    border: 3px solid #112132;
+    border: 5px solid #112132;
     position: absolute;
 }
 .student_foto {
