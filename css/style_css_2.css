@@ -644,13 +644,12 @@ font-size: 18px;
     position: relative;
 }
 .flex_text_footer {
-    width: 70%;
     display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   position: relative;
-   right: -300px;
-   top: -100px;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    right: 150px;
+    top: -100px;
    
    
 }
@@ -665,9 +664,8 @@ margin-left: 35px;
 }
 .line_height {
     position: relative;
-    top: -35px;
-  
-    margin-left: 350px;
+    top: -35px;  
+    margin-left: 300px;
 }
 .margin{
     margin-top: 10px;
@@ -686,9 +684,8 @@ margin-left: 35px;
 @media (max-width: 1450px) and (min-width: 1300px) {
     .yrovni {width: 400px; height: 200px;}
     .raspisanie {width: 400px;}
-    .flex_zapis {
-        width: 175px;
-    }
+    .flex_zapis {        width: 175px; }
+    .line_height { margin-left: 250px;   }
 }
 
 
@@ -696,10 +693,10 @@ margin-left: 35px;
     .yrovni {width: 350px; height: 225px;}
     .flex_yrovni_text { width: 335px;   height: 155px;}
     .raspisanie {width: 350px;}
-    .flex_zapis {
-    width: 165px;
-}
-
+    .rombiki_raspisanie_text {width: 250px;}
+    .flex_zapis { width: 165px;}
+    .line_height { margin-left: 200px;   }
+    .flex_text_footer {    right: 100px;}
 }
 
 @media (max-width: 1200px) and (min-width: 1000px) {
@@ -707,17 +704,23 @@ margin-left: 35px;
     .flex_yrovni_text {  width: 325px;  height: 165px;}
     .text_yrovni_vubor2 {    font-size: 13px; }
     .raspisanie {width: 300px;}
+    .rombiki_raspisanie_text {width: 225px;}
+    .yrok_raspisanie {font-size: 13px;}
     .flex_zapis {        width: 145px;    }
+    .line_height { margin-left: 100px;   }
+    .flex_text_footer {    right: 55px;}
 }
 
 
 @media (max-width: 1000px) and (min-width: 850px) {
     .container_yrovni { height: 1000px;}
-    .menu_tab { font-size: 14px;}
+    .menu_tab { width: 50%; font-size: 14px;}
     .yrovni {width: 400px;}
     .container_raspisanie {height: 1200px;}
     .raspisanie {width: 400px;}   
     .flex_zapis {width: 190px;}
+    .line_height { margin-left: 75px;   }
+    .flex_text_footer {    right: 35px;}
 } 
 
 
@@ -725,12 +728,16 @@ margin-left: 35px;
     .container_yrovni { height: 1650px;}
     .yrovni {width: 650px;}
     .raspisanie {width: 650px;}
-    .menu_tab { font-size: 16px;}
+    .menu_tab { width: 55%;font-size: 16px;}
     .container_raspisanie {height: 2200px;}
     .flex_zapis {width: 265px;}
+    .line_height { margin-left: 25px;   }
+    .flex_text_footer {    right: 15px;}
 } 
 @media (max-width: 700px) and (min-width: 600px) {
     .menu_tab { font-size: 14px;}
     .yrovni {width: 550px;}
     .raspisanie {width: 550px;}
+    .line_height { margin-left: 25px;   }
+    .flex_text_footer {    right: 10px;}
 } 
