@@ -315,7 +315,7 @@ flex-direction: column;
         top: -1450px;
         bottom: 0;
         background-repeat: no-repeat;
-    background-size: 100%;
+        background-size: cover;
    overflow: hidden;
 }
 
