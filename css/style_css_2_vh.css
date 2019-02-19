@@ -30,13 +30,13 @@
 }
 .contacts_text {
     display: flex;
-    width: 25%;
+    width: 25vw;
     align-items: center;
     justify-content: space-between;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
-    font-size: 18px;
+    font-size: 1.2vw;
     padding-right: 50px;
     padding-top: 50px;
     
@@ -44,15 +44,15 @@
 
 .menu_tab {
     display: table;
-    width: 45%;
+    width: 35vw;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     line-height: normal;
-    font-size: 18px;
+    font-size: 1.2vw;
     margin: 0;
     padding: 0;
     padding-top: 50px;
-    padding-right: 150px;
+    margin-right: 8vw;
 }
 
 .it {
@@ -92,12 +92,12 @@ letter-spacing: 0.1em;
     
 }
 .romb {
+    margin-left: 5vw;
     width: 250px;
     height: 250px;
     background: #BA9898;
     transform: rotate(45deg);
-    margin-top: -150px;
-    margin-left: 5vw;
+    margin-top: -150px;    
     position: absolute;
 }
 
@@ -163,8 +163,8 @@ line-height: normal;
 font-size: 1.3vw;
 text-align: center;
 text-transform: uppercase;
-margin-top: 25px;
-    margin-left: 25px;
+margin-top: 2vw;
+margin-left: 2vw;
 
 color: #FFFFFF;
 }
@@ -176,7 +176,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 1.3vw;
 text-transform: uppercase;
-margin-top: 15px;
+margin-top: 1vw;
 }
 
 .text_norv_kub_2 {
@@ -186,7 +186,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 1.1vw;
 text-align: center;
-margin-top: 15px;
+margin-top: 1vw;
 }
 .romb_islan {
     position: relative;
@@ -558,9 +558,6 @@ z-index: 4;
     font-size: 14px;
     margin-left: 5px;
 }
-.effekt_raspisanie {
-
-}
 .rombiki_raspisanie_mesiac {
 position: relative;
 top: -45px;
@@ -678,15 +675,20 @@ margin-left: 35px;
     top: 75px;
 }
 
-
-@media (min-width: 1400px) {
-    .romb_norv {
+@media (min-width: 1550px) {
+    .contacts_text {font-size: 1.1vw;}
+    .menu_tab {font-size: 1.1vw;}
+}
+@media (max-width: 1550px) and (min-width: 1450px) {
+    .menu_tab {width: 37vw;}
+}
+@media (min-width: 1400px) {    
+    .romb_norv { 
         position: relative;
         width: 180px;
         height: 180px;
         top: 175px;
         left: 350px;
-    
     }
     .romb_norv_flex {
         width: 180px;
@@ -696,64 +698,45 @@ margin-left: 35px;
     font-size: 18px;
     margin-top: 25px;
         margin-left: 25px;
- 
     }
-    
     .text_norv_kub {
-    
     font-size: 18px;
-    
     margin-top: 15px;
     }
-    
     .text_norv_kub_2 {
-    
     font-size: 14px;
-  
     margin-top: 15px;
     }
     .romb_islan {
-       
         width: 180px;
         height: 180px;
       left: 500px;
         top: -150px;
     }
-       
     .romb_shved {
-       
         width: 180px;
         height: 180px;
-        
         left: 650px;
         top: -185px;
     }
-  
     .romb_fin {
-     
         width: 180px;
         height: 180px;
-      
         left: 800px;
         top: -510px;
     }
-   
     .romb_dat {
-      
         width: 180px;
         height: 180px;
-       
         left: 1100px;
         top: -690px;
     }
-    
     .romb_bordo {
         top: 225px;
         left: 715px;
         position: absolute;
         width: 47px;
         height: 47px;
-       
     }
     .romb_setyi {
         top: 185px;
@@ -761,21 +744,17 @@ margin-left: 35px;
         position: absolute;
         width: 80px;
         height: 80px;
-       
     }
     .romb_white {
         width: 37px;
         height: 37px;
-       
         margin-top: -1px;
         margin-left: -1px;
     }
     .romb_siniy {
         width: 27px;
         height: 27px;
-    
     }
-
 }
 
 @media (max-width: 1600px) and (min-width: 1450px) {
@@ -792,6 +771,9 @@ margin-left: 35px;
 
 
 @media (max-width: 1300px) and (min-width: 1200px) {
+    .contacts_text {font-size: 1.3vw;}
+    .menu_tab {font-size: 1.3vw;}
+    .romb {margin-left: 4vw;}
     .yrovni {width: 350px; height: 225px;}
     .flex_yrovni_text { width: 335px;   height: 155px;}
     .raspisanie {width: 350px;}
@@ -802,21 +784,27 @@ margin-left: 35px;
 }
 
 @media (max-width: 1200px) and (min-width: 1000px) {
+    .contacts_text {font-size: 1.3vw;}
+    .menu_tab {font-size: 1.3vw;}
+    .romb {margin-left: 3vw;}
+    .text_yaziki {left: 12vw;}
     .yrovni {width: 300px; height: 235px;}
     .flex_yrovni_text {  width: 325px;  height: 165px;}
     .text_yrovni_vubor2 {    font-size: 13px; }
     .raspisanie {width: 300px;}
     .rombiki_raspisanie_text {width: 225px;}
+    .rombiki_raspisanie_mesiac {font-size: 15px;}
     .yrok_raspisanie {font-size: 13px;}
     .flex_zapis {        width: 145px;    }
     .line_height { margin-left: 100px;   }
     .flex_text_footer {    right: 55px;}
 }
-
-
 @media (max-width: 1000px) and (min-width: 850px) {
+    .contacts_text {font-size: 1.4vw; width: 27vw;}
+    .menu_tab {font-size: 1.4vw;}
+    .romb {margin-left: 3vw;}
+    .text_yaziki {left: 13vw;}
     .container_yrovni { height: 1000px;}
-    .menu_tab { width: 50%; font-size: 14px;}
     .yrovni {width: 400px;}
     .container_raspisanie {height: 1200px;}
     .raspisanie {width: 400px;}   
@@ -827,17 +815,23 @@ margin-left: 35px;
 
 
 @media (max-width: 850px) and (min-width: 700px) {
+    .contacts_text {font-size: 1.5vw; width: 28vw;}
+    .menu_tab {font-size: 1.5vw;}
+    .romb {margin-left: 4vw;}
+    .text_yaziki {left: 14vw;}
     .container_yrovni { height: 1650px;}
     .yrovni {width: 650px;}
     .raspisanie {width: 650px;}
-    .menu_tab { width: 55%;font-size: 16px;}
     .container_raspisanie {height: 2200px;}
     .flex_zapis {width: 265px;}
     .line_height { margin-left: 25px;   }
     .flex_text_footer {    right: 15px;}
 } 
 @media (max-width: 700px) and (min-width: 600px) {
-    .menu_tab { font-size: 14px;}
+    .contacts_text {font-size: 1.6vw;width: 29vw;}
+    .menu_tab {font-size: 1.6vw;}
+    .romb {margin-left: 4vw;}
+    .text_yaziki {left: 15vw;}
     .yrovni {width: 550px;}
     .raspisanie {width: 550px;}
     .line_height { margin-left: 25px;   }
