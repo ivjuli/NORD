@@ -1,0 +1,845 @@
+.container_wrapper {
+    width: 100%;
+    background-color: #BACBDC;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1510px;
+    overflow: hidden;
+    background-color: aqua;
+    margin: auto;
+}
+
+.logo_contacts {
+    width: 100%;
+    max-width: 1510px;
+    background-color: white;
+    position: relative;
+    height: 175px;
+}
+.contacts {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 1510px;
+    height: 50px;
+    color: black;
+}
+.contacts_text {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-size: 18px;
+    padding-right: 50px;
+    padding-top: 50px;
+    
+}
+
+.menu_tab {
+    display: table;
+    width: 45%;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+
+.it {
+    display: table-cell;
+    text-align: center;
+}
+.line {
+    text-decoration: none;
+    color: #000000;
+}
+    
+a.line:hover {
+        border-top: 2px solid black;
+        transition-property: all;
+        transition-duration: 200ms;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(-45deg);
+    position: relative;
+    margin-left: 125px;
+    margin-top: 135px;
+    
+}
+
+.logo_logo {
+font-family: 'Puritan', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 32px;
+font-size: 24px;
+letter-spacing: 0.1em;
+    color: black;
+    
+}
+.romb {
+    width: 250px;
+    height: 250px;
+    background: #BA9898;
+    transform: rotate(45deg);
+    margin-top: -150px;
+    margin-left: 5vw;
+    position: absolute;
+}
+
+.container_yaziki {
+    width: 100%;
+    max-width: 1510px;
+    height: 200px;
+    background-color: white;
+}
+.text_yaziki {
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 1.6vw;
+text-transform: uppercase;
+left: 11vw;
+color: #000000;
+}
+a.test {
+    color: #000000;
+     text-decoration: none;
+}
+a.test:hover {
+   
+    text-decoration: underline;
+    
+}
+.romb_norv {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    transform: rotate(45deg);
+    background-color: #BACBDC;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 13vw;
+    left: 25vw;
+
+
+}
+.romb_norv_flex {
+    width: 13vw;
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(-45deg);
+}
+.text_yaziki_romb {
+    position: absolute;
+
+    transform: rotate(-45deg);
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 1.3vw;
+text-align: center;
+text-transform: uppercase;
+margin-top: 25px;
+    margin-left: 25px;
+
+color: #FFFFFF;
+}
+
+.text_norv_kub {
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 1.3vw;
+text-transform: uppercase;
+margin-top: 15px;
+}
+
+.text_norv_kub_2 {
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 1.1vw;
+text-align: center;
+margin-top: 15px;
+}
+.romb_islan {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 36vw;
+    top: -11vw;
+}
+.foto_islan {
+    position: relative;
+    transform: rotate(-45deg);
+}
+
+.romb_shved {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 47vw;
+    top: -13vw;
+
+}
+.foto_shved {
+    position: relative;
+    transform: rotate(-45deg);
+}
+.romb_fin {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 58vw;
+    top: -37vw;
+}
+.foto_fin {
+    position: relative;
+    transform: rotate(-45deg);
+}
+.romb_dat {
+    position: relative;
+    width: 13vw;
+    height: 13vw;
+    transform: rotate(45deg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 81vw;
+    top: -50vw;
+}
+.foto_dat {
+    position: relative;
+    transform: rotate(-45deg);
+}
+.romb_bordo {
+    top: -62vw;
+    left: 52vw;
+    position: relative;
+    width: 3vw;
+    height: 3vw;
+    transform: rotate(45deg);
+    background-color: #432132;
+}
+.romb_setyi {
+    top: -68vw;
+    left: 73vw;
+    position: relative;
+    width: 6vw;
+    height: 6vw;
+    transform: rotate(45deg);
+    background-color: #435465;
+}
+.romb_white {
+    width: 3vw;
+    height: 3vw;
+    transform: rotate(0deg);
+    background-color: white;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.romb_siniy {
+    width: 2vw;
+    height: 2vw;
+    transform: rotate(0deg);
+    background-color: #112132;
+}
+.container_yrovni {
+    width: 100%;
+    max-width: 1510px;
+    height: 850px;
+  width: 100%;  
+    max-width: 1510px;  
+    min-height: 850px;
+    height: 1px;
+    background: linear-gradient(181.22deg, #FFFFFF 1.81%, rgba(255, 255, 255, 0.91) 9.04%, rgba(255, 255, 255, 0.41) 31.96%, rgba(160, 166, 173, 0.646) 37.7%, #112132 98.19%), 
+    url(../img/img_foto_fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tex_yrovni {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+color: #000000;
+padding: 20px;
+position: relative;
+top: 250px;
+
+}
+.flex_yrovni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    top: 250px;
+    position: relative;
+
+}
+.yrovni {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 450px;
+height: 180px;
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.znachki {
+    margin: 10px;
+}
+.flex_yrovni_text {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.text_yrovni_vubor {
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-transform: uppercase;
+margin: 10px;
+}
+.text_yrovni_vubor2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 14px;
+margin: 10px;
+}
+.container_raspisanie {
+    width: 100%;
+    max-width: 1510px;
+    height: 900px;    
+    background-color:#112132;
+ }
+.tex_raspisanie {
+        font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+text-align: center;
+text-transform: uppercase;
+color: white;
+padding: 20px;
+}
+.tex_raspisanie2 {
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+color: white;
+}
+
+.flex_raspisanie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+.raspisanie {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 450px;
+    height: 270px;
+background: white;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 14px;
+text-align: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 25px;
+margin-bottom: 30px;
+}
+.raspisanie_fon {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.35),rgba(186, 203, 220, 0.65));
+    z-index: 4;
+}
+
+.rombiki_raspisanie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.rombiki_raspisanie1 {
+    position: relative;
+    margin: 15px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background-color: #BA9898;
+}
+.rombiki_raspisanie2 {
+    margin: -5px;
+    transform: rotate(45deg);
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #BACBDC;
+}
+.rombiki_raspisanie3 {
+    display: flex;
+    margin: -5px;
+    transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    position: relative;
+}
+.rombiki_raspisanie3_1 {
+    width: 7px;
+    height: 7px;
+    background-color:#432132;
+    
+}
+.rombiki_raspisanie4 {
+    margin: 5px;
+    transform: rotate(45deg);
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #432132;
+    z-index: 2;
+    top: -5px;
+}
+.rombiki_raspisanie5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 5px;
+    transform: rotate(45deg);
+    width: 44px;
+    height: 44px;
+    background-color:white;
+    top: -15px;
+    z-index: 2;
+}
+.rombiki_raspisanie5_1 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+ 
+    background-color:#435465;
+}
+.rombiki_raspisanie6 {
+    transform: rotate(45deg);
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    top: -20px;
+}
+.rombiki_raspisanie6_1 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: #432132;
+    z-index: 4;
+}
+.rombiki_raspisanie7 {
+    margin: 5px;
+    transform: rotate(45deg);
+        width: 22px;
+        height: 22px;
+        background-color:#778798;
+        position: relative;
+        z-index: 2;
+        top: -25px;
+}
+.rombiki_raspisanie8 {
+    position: relative;
+     transform: rotate(45deg);
+     width: 10px;
+     height: 10px;
+     background-color: #432132;
+     top: -15px;
+}
+.rombiki_raspisanie_text {
+    position: relative;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+width: 300px;
+z-index: 4;
+}
+.yrok_raspisanie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 315px;
+    height: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.effekt_raspisanie {
+
+}
+.rombiki_raspisanie_mesiac {
+position: relative;
+top: -45px;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 18px;
+text-align: right;
+text-decoration-line: underline;
+}
+.flex_zapisi {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.flex_zapis{
+position: relative;
+bottom: -125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+color: white;
+width: 210px;
+height: 65px;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.flex_zapis_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+}
+.left {
+position: absolute;
+left:0;
+}
+.right {
+    position: absolute;
+    right:0;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    max-width: 1510px;
+    max-height: 373px;
+    height: 373px;
+    background-color: #778798;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 25px;
+font-size: 18px;
+ }
+ 
+.romb_footer {
+    position: absolute;
+    left: -100px;
+    top: 125px;
+    width: 197px;
+    height: 197px;
+    transform: rotate(45deg);
+    background-color: #BA9898;
+} 
+.romb_footer_logo {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    left: 75px;
+    top: 75px;
+    position: relative;
+}
+.flex_text_footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    right: 150px;
+    top: -100px;
+   
+   
+}
+.tex_foter {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 25px;
+font-size: 18px;
+margin-left: 35px;
+}
+.line_height {
+    position: relative;
+    top: -35px;  
+    margin-left: 300px;
+}
+.margin{
+    margin-top: 10px;
+}
+.footer_tex {
+    position: relative;
+    left: 135px;
+    top: 75px;
+}
+
+
+@media (min-width: 1400px) {
+    .romb_norv {
+        position: relative;
+        width: 180px;
+        height: 180px;
+        top: 175px;
+        left: 350px;
+    
+    }
+    .romb_norv_flex {
+        width: 180px;
+        height: 100px;
+    }
+    .text_yaziki_romb {
+    font-size: 18px;
+    margin-top: 25px;
+        margin-left: 25px;
+ 
+    }
+    
+    .text_norv_kub {
+    
+    font-size: 18px;
+    
+    margin-top: 15px;
+    }
+    
+    .text_norv_kub_2 {
+    
+    font-size: 14px;
+  
+    margin-top: 15px;
+    }
+    .romb_islan {
+       
+        width: 180px;
+        height: 180px;
+      left: 500px;
+        top: -150px;
+    }
+       
+    .romb_shved {
+       
+        width: 180px;
+        height: 180px;
+        
+        left: 650px;
+        top: -185px;
+    }
+  
+    .romb_fin {
+     
+        width: 180px;
+        height: 180px;
+      
+        left: 800px;
+        top: -510px;
+    }
+   
+    .romb_dat {
+      
+        width: 180px;
+        height: 180px;
+       
+        left: 1100px;
+        top: -690px;
+    }
+    
+    .romb_bordo {
+        top: 225px;
+        left: 715px;
+        position: absolute;
+        width: 47px;
+        height: 47px;
+       
+    }
+    .romb_setyi {
+        top: 185px;
+        left: 1000px;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+       
+    }
+    .romb_white {
+        width: 37px;
+        height: 37px;
+       
+        margin-top: -1px;
+        margin-left: -1px;
+    }
+    .romb_siniy {
+        width: 27px;
+        height: 27px;
+    
+    }
+
+}
+
+@media (max-width: 1600px) and (min-width: 1450px) {
+    .yrovni {width: 450px; height: 200px;}
+    .raspisanie {width: 450px;}
+}
+
+@media (max-width: 1450px) and (min-width: 1300px) {
+    .yrovni {width: 400px; height: 200px;}
+    .raspisanie {width: 400px;}
+    .flex_zapis {        width: 175px; }
+    .line_height { margin-left: 250px;   }
+}
+
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .yrovni {width: 350px; height: 225px;}
+    .flex_yrovni_text { width: 335px;   height: 155px;}
+    .raspisanie {width: 350px;}
+    .rombiki_raspisanie_text {width: 250px;}
+    .flex_zapis { width: 165px;}
+    .line_height { margin-left: 200px;   }
+    .flex_text_footer {    right: 100px;}
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .yrovni {width: 300px; height: 235px;}
+    .flex_yrovni_text {  width: 325px;  height: 165px;}
+    .text_yrovni_vubor2 {    font-size: 13px; }
+    .raspisanie {width: 300px;}
+    .rombiki_raspisanie_text {width: 225px;}
+    .yrok_raspisanie {font-size: 13px;}
+    .flex_zapis {        width: 145px;    }
+    .line_height { margin-left: 100px;   }
+    .flex_text_footer {    right: 55px;}
+}
+
+
+@media (max-width: 1000px) and (min-width: 850px) {
+    .container_yrovni { height: 1000px;}
+    .menu_tab { width: 50%; font-size: 14px;}
+    .yrovni {width: 400px;}
+    .container_raspisanie {height: 1200px;}
+    .raspisanie {width: 400px;}   
+    .flex_zapis {width: 190px;}
+    .line_height { margin-left: 75px;   }
+    .flex_text_footer {    right: 35px;}
+} 
+
+
+@media (max-width: 850px) and (min-width: 700px) {
+    .container_yrovni { height: 1650px;}
+    .yrovni {width: 650px;}
+    .raspisanie {width: 650px;}
+    .menu_tab { width: 55%;font-size: 16px;}
+    .container_raspisanie {height: 2200px;}
+    .flex_zapis {width: 265px;}
+    .line_height { margin-left: 25px;   }
+    .flex_text_footer {    right: 15px;}
+} 
+@media (max-width: 700px) and (min-width: 600px) {
+    .menu_tab { font-size: 14px;}
+    .yrovni {width: 550px;}
+    .raspisanie {width: 550px;}
+    .line_height { margin-left: 25px;   }
+    .flex_text_footer {    right: 10px;}
+} 
