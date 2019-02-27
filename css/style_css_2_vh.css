@@ -314,7 +314,7 @@ margin-top: 1vw;
 color: #000000;
 padding: 20px;
 position: relative;
-top: 250px;
+top: 17vw;
 
 }
 .flex_yrovni {
@@ -755,6 +755,7 @@ margin-left: 35px;
         width: 27px;
         height: 27px;
     }
+    .tex_yrovni {top: 250px;}
 }
 
 @media (max-width: 1600px) and (min-width: 1450px) {
