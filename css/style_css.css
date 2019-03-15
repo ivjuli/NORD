@@ -1594,6 +1594,7 @@ a.test_c:hover {
     align-items: center;
     top: 13vw;
     left: 25vw;
+    overflow: hidden;
 }
 .romb_norv_c:hover {
     transform: rotate(45deg) scale(1.07);
